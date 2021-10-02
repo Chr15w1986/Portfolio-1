@@ -1,5 +1,25 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.components {
+    text-align: left;
+    margin: 20px 0 20px 20px;
+    padding-left: 20px;
+    grid-template-columns: minmax(repeat auto);
+    
+}
+
+.frame-styles {
+    text-align: left;
+    margin: 20px 0 20px 20px;
+    padding-left: 20px;
+}
 
 /* for small screen sizes 800px and below */
 @media screen and (max-width: 800px){
-    
+    body {
+        column-count: 1;
+    }
 }
