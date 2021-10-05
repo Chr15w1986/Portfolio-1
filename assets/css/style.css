@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@279&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    display: grid;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #473c3cb0;
-    
+    font-family: 'Gemunu Libre', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+/* commented out code for fixes to text alignment issues
+
+.logo {
+    color: rgb(153, 71, 230);
 }
 
 
@@ -11,7 +24,7 @@ h4 {
     grid-template-rows: minmax(100px, auto);
     grid-template-columns: minmax(auto, 20%) 1fr 3em;
     grid-auto-flow: row;
-    grid-gap: 2px;
+    grid-gap: 2px 2px;
 }
 
 
@@ -20,16 +33,16 @@ h4 {
     grid-template-rows: minmax(100px, auto);
     grid-template-columns: minmax(auto, 20%) 1fr 3fr;
     grid-auto-flow: row;
-    grid-gap: 2px;
+    grid-gap: 2px 2px;
 
 }
 
 .main-text-brakes {
     display: grid;
-    grid-template-rows: minmax(100px, auto);
+    grid-template-rows: minmax(240px, auto);
     grid-template-columns: minmax(auto, 20%) 1fr 3em;
     grid-auto-flow: row;
-    grid-gap: 2px;
+    grid-gap: 2px 2px;                           */
 
 
 }
