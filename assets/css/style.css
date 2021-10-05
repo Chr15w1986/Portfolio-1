@@ -10,14 +10,18 @@ body {
     font-family: 'Gemunu Libre', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+    color: #434e4e;
+    background-color: #000000e5;
 }
 
-/* commented out code for fixes to text alignment issues
 
-.logo {
+#logo {
     color: rgb(153, 71, 230);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
-
+/* commented out code for fixes to text alignment issues
 
 h4 {
     display: grid;
@@ -42,10 +46,10 @@ h4 {
     grid-template-rows: minmax(240px, auto);
     grid-template-columns: minmax(auto, 20%) 1fr 3em;
     grid-auto-flow: row;
-    grid-gap: 2px 2px;                           */
+    grid-gap: 2px 2px;                           
 
 
-}
+}*/
 
 
 /* for small screen sizes 500px and below */
