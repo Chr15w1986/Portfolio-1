@@ -14,13 +14,39 @@ body {
     background-color: #000000e5;
 }
 
+/*logo styling*/
 
 #logo {
-    color: rgb(153, 71, 230);
+    font-size: 276%;
+    color: rgb(125, 112, 136);
+    letter-spacing: 6px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    
 }
+
+#logo:hover{
+    color: #434e4e;
+} 
+
+/*navigation links*/
+
+#nav-links {
+    font-size: 130%;
+    letter-spacing: 1px;  
+}
+
+#nav-links li{
+    
+    color: rgb(125, 112, 136);
+    display: inline-grid;
+    grid-template-columns: 30px 30px 30px 30px;
+    grid-template-rows: 30px;
+    grid-template-areas: 1/2;  
+}
+
+
 /* commented out code for fixes to text alignment issues
 
 h4 {
@@ -53,8 +79,8 @@ h4 {
 
 
 /* for small screen sizes 500px and below */
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 600px) {
     body {
-        width: 500px;
+        width: 75%;
     }
 }
