@@ -6,18 +6,60 @@
     border: none;
 }
 
+/*grid area*/
+
 body {
     font-family: 'Gemunu Libre', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    color: #434e4e;
     background-color: #000000e5;
+    color: #434e4e;
+    
+    display: grid;
+    grid-template-columns: 1.5em minmax(400px, 650px) minmax(200px, 320px) 1.5em /*10em 50vw 50vh 10em*/;
+    grid-template-areas: 
+                ". header header header"
+                ". nav nav ."
+                "hero hero hero hero"
+                ". left-text left-text ."
+                "footer footer footer footer"
+
 }
+
+.header {
+    grid-area: header;
+}
+
+
+.nav-links {
+    grid-area: nav;
+}
+
+.hero {
+    grid-area: hero;
+}
+
+section {
+    grid-area: left-text;
+}
+
+footer {
+    grid-area: footer;
+}
+
+footer {
+    background: #3a3a3a;
+    color: #ff4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*logo styling*/
 
-#logo {
-    font-size: 276%;
+.logo {
+    font-size: 220%;
     color: rgb(125, 112, 136);
     letter-spacing: 6px;
     text-align: center;
@@ -26,24 +68,21 @@ body {
     
 }
 
-#logo:hover{
+.logo:hover{
     color: #434e4e;
 } 
 
+
+
 /*navigation links*/
 
-#nav-links {
+.nav-links {
     font-size: 130%;
     letter-spacing: 1px;  
 }
 
-#nav-links li{
-    
-    color: rgb(125, 112, 136);
-    display: inline-grid;
-    grid-template-columns: 30px 30px 30px 30px;
-    grid-template-rows: 30px;
-    grid-template-areas: 1/2;  
+.nav-links li{
+    color: rgb(125, 112, 136); 
 }
 
 
@@ -78,9 +117,9 @@ h4 {
 }*/
 
 
-/* for small screen sizes 500px and below */
-@media screen and (min-width: 600px) {
+/* for small screen sizes 320px and below */
+@media screen and (min-width: 320px) {
     body {
-        width: 75%;
+        width: 100%;
     }
 }
