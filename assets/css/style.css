@@ -18,6 +18,8 @@ body {
 /*main body styles*/
 .body {
     display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
     border: solid 2px #000;
     padding: 10px;
     height: 300vh;
@@ -56,6 +58,7 @@ nav ul {
 .main {
     display: grid;
     border: solid 2px #4a4a4a;
+    padding: 10px;
     border-radius: 10px;
     letter-spacing: 0.25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
