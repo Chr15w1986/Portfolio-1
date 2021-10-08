@@ -3,123 +3,71 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
+    font-size: 20px;
 }
-
-/*grid area*/
 
 body {
     font-family: 'Gemunu Libre', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    background-color: #000000e5;
-    color: #434e4e;
-    
+    color: #0d0e0e;
+}
+
+
+/*main body styles*/
+.body {
     display: grid;
-    grid-template-columns: 1.5em minmax(400px, 650px) minmax(200px, 320px) 1.5em /*10em 50vw 50vh 10em*/;
-    grid-template-areas: 
-                ". header header header"
-                ". nav nav ."
-                "hero hero hero hero"
-                ". left-text left-text ."
-                "footer footer footer footer"
-
+    border: solid 2px #000;
+    padding: 10px;
+    height: 300vh;
+    width: 90%;
+    margin: 20px auto;
 }
 
+/*Title link*/
 .header {
-    grid-area: header;
-}
-
-
-.nav-links {
-    grid-area: nav;
-}
-
-.hero {
-    grid-area: hero;
-}
-
-section {
-    grid-area: left-text;
-}
-
-footer {
-    grid-area: footer;
-}
-
-footer {
-    background: #3a3a3a;
-    color: #ff4;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
+    border: solid 2px red;
+    padding: 10px;
+    grid-gap: 10px;
+    height: 80px;
+    width: 90%;
+    margin: 20px auto;
 }
 
-
-/*logo styling*/
-
-.logo {
-    font-size: 220%;
-    color: rgb(125, 112, 136);
-    letter-spacing: 6px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    
-}
-
-.logo:hover{
-    color: #434e4e;
-} 
-
-
-
-/*navigation links*/
-
+/*Nav Bar*/
 .nav-links {
-    font-size: 130%;
-    letter-spacing: 1px;  
-}
-
-.nav-links li{
-    color: rgb(125, 112, 136); 
-}
-
-
-/* commented out code for fixes to text alignment issues
-
-h4 {
     display: grid;
-    grid-template-rows: minmax(100px, auto);
-    grid-template-columns: minmax(auto, 20%) 1fr 3em;
-    grid-auto-flow: row;
-    grid-gap: 2px 2px;
+    border: solid 2px #4a4a4a;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
-
-.main-text {
-    display: grid;
-    grid-template-rows: minmax(100px, auto);
-    grid-template-columns: minmax(auto, 20%) 1fr 3fr;
-    grid-auto-flow: row;
-    grid-gap: 2px 2px;
-
+nav ul {
+    list-style-type: none;
+    text-align: right;  
 }
 
-.main-text-brakes {
+/*Main text*/
+.main {
     display: grid;
-    grid-template-rows: minmax(240px, auto);
-    grid-template-columns: minmax(auto, 20%) 1fr 3em;
-    grid-auto-flow: row;
-    grid-gap: 2px 2px;                           
+    border: solid 2px #4a4a4a;
+    border-radius: 10px;
+    letter-spacing: 0.25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
 
-
-}*/
-
-
-/* for small screen sizes 320px and below */
-@media screen and (min-width: 320px) {
-    body {
-        width: 100%;
-    }
+/*Footer*/
+.footer {
+    display: grid;
+    border: solid 2px #4a4a4a;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
 }
