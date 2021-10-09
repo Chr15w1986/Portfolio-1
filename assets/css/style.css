@@ -15,12 +15,13 @@ body {
 }
 
 
+
+
 /*main body styles*/
 .body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     gap: 10px;
-    border: solid 2px #000;
     padding: 10px;
     height: 300vh;
     width: 90%;
@@ -32,15 +33,26 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
-    border: solid 2px red;
-    padding: 10px;
+    border: #4a4a4a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 0;
     grid-gap: 10px;
     height: 80px;
     width: 90%;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
-/*Nav Bar*/
+#logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 300%;
+    color: #252525;
+}
+
+
+/*Navigation links*/
 .nav-links {
     display: grid;
     border: solid 2px #4a4a4a;
@@ -49,9 +61,33 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
-nav ul {
+nav li {
+    display: inline;
     list-style-type: none;
-    text-align: right;  
+    text-align: right !important;
+    letter-spacing: 3px;
+    margin: 10px 30px 10px 0;
+    font-weight: 600;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    font-size: 110%;
+    font-weight: 800;
+    color: #4a4a4a;
+    overflow: hidden;
+    background: linear-gradient(to left, rgb(13, 13, 17), rgb(13, 13, 17) 50%, #4a4a4a 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+}
+
+a:hover {
+    background-position: 0 100%;
 }
 
 /*Main text*/
@@ -64,6 +100,7 @@ nav ul {
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
+
 /*Footer*/
 .footer {
     display: grid;
@@ -74,3 +111,15 @@ nav ul {
     align-items: center;
     font-size: 150%;
 }
+
+.social {
+    list-style: none;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 10px 30px 10px 0;
+    font-weight: 600;
+}
+.social > li {
+    display: inline;
+}
+
