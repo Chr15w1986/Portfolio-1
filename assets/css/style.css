@@ -12,34 +12,38 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     color: #0d0e0e;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
-
-
 
 
 /*main body styles*/
 .body {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: repeat(auto-fit);
+    grid-template-columns: repeat(auto-fit);
     gap: 10px;
     padding: 10px;
-    height: 300vh;
-    width: 90%;
+    width: auto;
     margin: 20px auto;
 }
 
 /*Title link*/
 .header {
     display: grid;
+    grid-template-rows: repeat(auto-fit);
+    grid-template-columns: repeat(auto-fit);
     justify-content: center;
     align-items: center;
     border: #4a4a4a;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     padding: 0;
+    position: relative;
     grid-gap: 10px;
     height: 80px;
-    width: 90%;
+    width: auto;
     margin: 10px auto;
 }
 
@@ -47,7 +51,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 3px;
-    font-size: 300%;
+    font-size: 280%;
     color: #252525;
 }
 
@@ -55,16 +59,17 @@ body {
 /*Navigation links*/
 .nav-links {
     display: grid;
+    grid-template-rows: repeat(auto-fit);
     border: solid 2px #4a4a4a;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
-nav li {
+nav > ul {
     display: inline;
     list-style-type: none;
-    text-align: right !important;
+    text-align: left !important;
     letter-spacing: 3px;
     margin: 10px 30px 10px 0;
     font-weight: 600;
@@ -90,9 +95,17 @@ a:hover {
     background-position: 0 100%;
 }
 
+
+.active {
+    border-bottom: solid 2px #4a4a4a;
+    border-radius: 20%;
+}
+
 /*Main text*/
 .main {
     display: grid;
+    grid-template-rows: repeat(auto-fit);
+    grid-template-columns: repeat(auto-fit);
     border: solid 2px #4a4a4a;
     padding: 10px;
     border-radius: 10px;
@@ -104,6 +117,8 @@ a:hover {
 /*Footer*/
 .footer {
     display: grid;
+    grid-template-rows: repeat(auto-fit);
+    grid-template-columns: repeat(auto-fit);
     border: solid 2px #4a4a4a;
     border-radius: 10px;
     letter-spacing: 1px;
@@ -118,8 +133,16 @@ a:hover {
     letter-spacing: 3px;
     margin: 10px 30px 10px 0;
     font-weight: 600;
+    
 }
 .social > li {
     display: inline;
+    font-size: 110%;
 }
+
+footer > p {
+    font-size: x-small;
+    text-align: center;
+}
+
 
