@@ -69,7 +69,7 @@ body {
 nav > ul {
     display: inline;
     list-style-type: none;
-    text-align: left !important;
+    text-align: center !important;
     letter-spacing: 3px;
     margin: 10px 30px 10px 0;
     font-weight: 600;
@@ -101,12 +101,14 @@ a:hover {
     border-radius: 20%;
 }
 
-/*Main text*/
+/*Main text body*/
 .main {
     display: grid;
     grid-template-rows: repeat(auto-fit);
     grid-template-columns: repeat(auto-fit);
     border: solid 2px #4a4a4a;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     border-radius: 10px;
     letter-spacing: 0.25px;
@@ -114,35 +116,50 @@ a:hover {
 }
 
 
-/*Footer*/
+/*Footer and social media icons*/
 .footer {
     display: grid;
     grid-template-rows: repeat(auto-fit);
     grid-template-columns: repeat(auto-fit);
     border: solid 2px #4a4a4a;
     border-radius: 10px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     justify-content: center;
     align-items: center;
     font-size: 150%;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+footer > p {
+    font-size: x-small;
+    text-align: center;
 }
 
 .social {
     list-style: none;
     text-align: center;
     letter-spacing: 3px;
-    margin: 10px 30px 10px 0;
+    margin: 5px 25px 5px 25px;
     font-weight: 600;
     
 }
 .social > li {
     display: inline;
-    font-size: 110%;
 }
 
-footer > p {
-    font-size: x-small;
+.social i {
+    font-size: 150%;
+    margin: 5px 25px 5px 25px;
+}
+
+.copyright {
     text-align: center;
 }
+
+
 
 
