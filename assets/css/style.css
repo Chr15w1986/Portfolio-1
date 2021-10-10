@@ -11,7 +11,7 @@ body {
     font-family: 'Gemunu Libre', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    color: #d45757ab;
+    color: #ffffff;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -26,7 +26,7 @@ body {
     gap: 10px;
     padding: 0 10px 10px 10px;
     width: auto;
-    margin: 20px auto;
+    margin: 10px 0 10px 0;
 }
 
 /*Title link*/
@@ -52,7 +52,6 @@ body {
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 280%;
-    color: #252525;
 }
 
 
@@ -61,19 +60,21 @@ body {
     display: grid;
     grid-template-rows: repeat(auto-fit);
     border: solid 2px #4a4a4a;
-    padding: 10px;
+    padding: 10px 0 10px 0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
-nav>ul {
+nav>ul>li {
     display: inline;
     list-style-type: none;
+    font-size: 120%;
     text-align: center !important;
     letter-spacing: 3px;
-    margin: 10px 30px 10px 0;
-    font-weight: 600;
+    margin: 10px 0 10px 0;
+    padding: 20px 20px 20px 20px;
 }
+
 
 a {
     position: relative;
@@ -82,7 +83,7 @@ a {
     font-weight: 800;
     color: #4a4a4a;
     overflow: hidden;
-    background: linear-gradient(to left, rgb(13, 13, 17), rgb(13, 13, 17) 50%, #4a4a4a 50%);
+    background: linear-gradient(to right, rgb(186, 186, 243), rgb(100, 100, 255) 50%, #d6d4d4 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -138,7 +139,7 @@ footer p {
 footer>p {
     font-size: x-small;
     text-align: center;
-    padding: 5px ;
+    padding: 5px;
 }
 
 .social {
