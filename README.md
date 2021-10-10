@@ -112,3 +112,4 @@ Inspired bicycles for the images
 google images for brand logos
 Code Lab on youtube for code snippets to make my code work correctly
 Kevin powell on youtube for beginners easy to follow guides on very specific elements in html and css
+wikipedia for more indepth information on the sport of trials riding

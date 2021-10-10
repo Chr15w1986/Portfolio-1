@@ -48,6 +48,7 @@ body {
 }
 
 #logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 3px;
@@ -69,7 +70,6 @@ nav>ul>li {
     display: inline;
     list-style-type: none;
     font-size: 120%;
-    text-align: center !important;
     letter-spacing: 3px;
     margin: 10px 0 10px 0;
     padding: 20px 20px 20px 20px;
@@ -117,6 +117,7 @@ a:hover {
 }
 
 
+
 /*Footer and social media icons*/
 .footer {
     display: grid;
@@ -158,11 +159,31 @@ footer>p {
     margin: 5px 25px 5px 25px;
 }
 
-/*media queries for laptops, desktops and tablets*/
+/*media queries for laptops and tablets 1200px and below*/
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+/*media queries for medium sized devices 800px and below*/
+
+@media  screen and (max-width: 800px) {
+    nav>ul>li {
+        font-size: 75%;
+        text-align: center;
+    }
+}
+
+/*media queries for tablets, and smaller devices 600px and below*/
 
 @media screen and (max-width: 600px) {
     #logo {
         font-size: 150%;
+    }
+
+    nav>ul>li {
+        font-size: 60%;
+        justify-content: center;
     }
 
     .main {
@@ -171,6 +192,12 @@ footer>p {
     }
 
     .social li {
-        font-size: 100%;
+        font-size: 60%;
+    }
+
+    footer p {
+        text-align: center;
+        font-weight: none;
+        font-size: 60%;
     }
 }
