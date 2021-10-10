@@ -1,12 +1,10 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-
 # What is Trials?
-
 
 ## Purpose
 
-To educate on the sport of trials riding, history of the sport, riders profiles, techniques and the different styles 
+To educate on the sport of trials riding, history of the sport, riders profiles, techniques and the different styles
 of each part of the sport.
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
@@ -107,3 +105,10 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+# Credits
+
+Inspired bicycles for the images
+google images for brand logos
+Code Lab on youtube for code snippets to make my code work correctly
+Kevin powell on youtube for beginners easy to follow guides on very specific elements in html and css
