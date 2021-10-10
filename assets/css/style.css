@@ -11,7 +11,7 @@ body {
     font-family: 'Gemunu Libre', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    color: #0d0e0e;
+    color: #d45757ab;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -24,7 +24,7 @@ body {
     grid-template-rows: repeat(auto-fit);
     grid-template-columns: repeat(auto-fit);
     gap: 10px;
-    padding: 10px;
+    padding: 0 10px 10px 10px;
     width: auto;
     margin: 20px auto;
 }
@@ -66,7 +66,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
-nav > ul {
+nav>ul {
     display: inline;
     list-style-type: none;
     text-align: center !important;
@@ -131,12 +131,14 @@ a:hover {
 
 footer p {
     text-align: center;
+    font-weight: bold;
 }
 
 
-footer > p {
+footer>p {
     font-size: x-small;
     text-align: center;
+    padding: 5px ;
 }
 
 .social {
@@ -144,10 +146,9 @@ footer > p {
     text-align: center;
     letter-spacing: 3px;
     margin: 5px 25px 5px 25px;
-    font-weight: 600;
-    
 }
-.social > li {
+
+.social>li {
     display: inline;
 }
 
@@ -156,10 +157,19 @@ footer > p {
     margin: 5px 25px 5px 25px;
 }
 
-.copyright {
-    text-align: center;
+/*media queries for laptops, desktops and tablets*/
+
+@media screen and (max-width: 600px) {
+    #logo {
+        font-size: 150%;
+    }
+
+    .main {
+        text-align: center;
+
+    }
+
+    .social li {
+        font-size: 100%;
+    }
 }
-
-
-
-
