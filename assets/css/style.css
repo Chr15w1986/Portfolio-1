@@ -102,7 +102,7 @@ a:hover {
     border-radius: 20%;
 }
 
-/*Main text body*/
+/*Main body content*/
 .main {
     display: grid;
     grid-template-rows: repeat(auto-fit);
@@ -116,6 +116,38 @@ a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
+#center-images-1, #center-images-2, #center-images-3, #center-images-4 {
+    display: inline-block;
+    justify-content: center;
+    border: solid 1px #4a4a4a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    height: 10rem;
+    width: 17rem;
+    margin: 12px 12px 12px 12px;
+}
+
+#right-text {
+    text-align: right;
+    padding: 0;
+    margin-left: 0;
+}
+
+#video-1 {
+    display: inline-block;
+    height: 315px;
+    left: 10%;
+    position: relative;
+    width: 420px;
+}
+
+#video-2 {
+    display: inline-block;
+    height: 315px;
+    right: 10%;
+    position: absolute;
+    width: 420px;
+}
 
 
 /*Footer and social media icons*/
@@ -140,7 +172,7 @@ footer p {
 footer>p {
     font-size: x-small;
     text-align: center;
-    padding: 5px;
+    padding: 5px 5px 5px 5px;
 }
 
 .social {
@@ -159,18 +191,39 @@ footer>p {
     margin: 5px 25px 5px 25px;
 }
 
-/*media queries for laptops and tablets 1200px and below*/
+/*media queries for laptops and tablets 1250px and below*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
+
+    #video-1,
+    #video-2 {
+        display: block;
+        height: 315px;
+        left: 20%;
+        position: relative;
+        width: 420px;
+    }
+
     
+
 }
 
 /*media queries for medium sized devices 800px and below*/
 
-@media  screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     nav>ul>li {
-        font-size: 75%;
+        font-size: 85%;
         text-align: center;
+    }
+
+    #video-1,
+    #video-2 {
+        display: block;
+        height: 300px;
+        left: 5%;
+        position: relative;
+        width: 405px;
+        overflow: hidden;
     }
 }
 
@@ -191,6 +244,11 @@ footer>p {
 
     }
 
+    aside {
+        width: 100%;
+        text-align: none;
+    }
+
     .social li {
         font-size: 60%;
     }
@@ -198,6 +256,75 @@ footer>p {
     footer p {
         text-align: center;
         font-weight: none;
+        font-size: 50%;
+    }
+
+    #video-1,
+    #video-2 {
+        display: block;
+        height: 250px;
+        left: 2%;
+        right: 2%;
+        position: relative;
+        width: 355px;
+        overflow: hidden;
+    }
+}
+
+/*media queries for smaller devices 400px and below*/
+
+@media screen and (max-width: 350px) {
+    .body {
+        width: 100vw;
+        height: 100vh;
+        padding-left: 2px;
+        padding-right: 5px;
+    }
+    
+
+    #logo {
+        font-size: 150%;
+        padding: 3px;
+        margin: 3px;
+    }
+
+    nav>ul>li {
+        display: block;
+        align-items: center;
         font-size: 60%;
+        padding: 3px;
+        margin: 3px;
+
+    }
+
+    .main {
+        text-align: center;
+
+    }
+
+    aside {
+        width: 100%;
+        text-align: none;
+    }
+
+    .social li {
+        font-size: 50%;
+    }
+
+    footer p {
+        text-align: center;
+        font-weight: none;
+        font-size: 60%;
+    }
+
+    #video-1,
+    #video-2 {
+        display: block;
+        height: 215px;
+        left: 2%;
+        right: 2%;
+        position: relative;
+        width: 320px;
+        overflow: hidden;
     }
 }

@@ -1,11 +1,32 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-# What is Trials?
+
+# TRIALS WORLD
 
 ## Purpose
 
-To educate on the sport of trials riding, history of the sport, riders profiles, techniques and the different styles
+Trials World is a website designed to educate people on the sport of trials riding, history of the sport, riders profiles, techniques and the different styles
 of each part of the sport.
+
+
+
+had to quickly tech myself CSS grid
+
+
+
+
+bugs and errors: 
+videos on homepage overflowing bottom of container for mobile device viewport. overflow hidden
+title overflowing onto next line. reduced text size at 600px width
+
+navbar not centering, always hanging left until media queries kick in at 400px where they centre and stack.
+
+navbar overflowing onto next line at 600px, centered and stacked links
+
+
+
+
+
+
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
