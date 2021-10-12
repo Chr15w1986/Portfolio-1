@@ -14,7 +14,7 @@ body {
     font-family: 'Gemunu Libre', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    color: #ffffff;
+    color: #d6d4d4;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -78,7 +78,6 @@ nav>ul>li {
     padding: 20px 20px 20px 20px;
 }
 
-
 a {
     position: relative;
     display: inline-block;
@@ -133,7 +132,37 @@ a:hover {
     margin: 12px 12px 12px 12px;
 }
 
+h2,
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    border-top: solid 1px #d6d4d4;
+    padding-top: 1em;
+}
 
+p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+#pictures {
+    line-height: 1px;
+    column-count: 1;
+    column-gap: 1px;
+}
+
+#pictures > img {
+    width: 100%;
+    margin: auto;
+    padding: 2px;
+    
+}
 
 #video-1 {
     display: inline-block;
@@ -213,9 +242,13 @@ footer>p {
 /*media queries for medium sized devices 800px and below*/
 
 @media screen and (max-width: 800px) {
+    .nav-links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     nav>ul>li {
         font-size: 85%;
-        text-align: center;
     }
 
     #video-1,
@@ -236,9 +269,14 @@ footer>p {
         font-size: 150%;
     }
 
+    .nav-links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
     nav>ul>li {
         font-size: 60%;
-        justify-content: center;
     }
 
     .main {
