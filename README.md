@@ -18,7 +18,7 @@ bugs and errors:
 videos on homepage overflowing bottom of container for mobile device viewport. overflow hidden
 title overflowing onto next line. reduced text size at 600px width
 
-navbar not centering, always hanging left until media queries kick in at 400px where they centre and stack.
+navbar not centering, always hanging left until media queries kick in at 400px where they centre and stack. sorted with display:flex and justify-content: space-around;
 
 navbar overflowing onto next line at 600px, centered and stacked links
 
