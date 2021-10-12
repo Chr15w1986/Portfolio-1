@@ -8,6 +8,9 @@
 }
 
 body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    grid-template-rows: repeat(auto-fit);
     font-family: 'Gemunu Libre', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
@@ -58,8 +61,8 @@ body {
 
 /*Navigation links*/
 .nav-links {
-    display: grid;
-    grid-template-rows: repeat(auto-fit);
+    display: flex;
+    justify-content: space-evenly;
     border: solid 2px #4a4a4a;
     padding: 10px 0 10px 0;
     border-radius: 10px;
@@ -116,7 +119,10 @@ a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
-#center-images-1, #center-images-2, #center-images-3, #center-images-4 {
+#center-images-1,
+#center-images-2,
+#center-images-3,
+#center-images-4 {
     display: inline-block;
     justify-content: center;
     border: solid 1px #4a4a4a;
@@ -127,11 +133,7 @@ a:hover {
     margin: 12px 12px 12px 12px;
 }
 
-#right-text {
-    text-align: right;
-    padding: 0;
-    margin-left: 0;
-}
+
 
 #video-1 {
     display: inline-block;
@@ -204,7 +206,7 @@ footer>p {
         width: 420px;
     }
 
-    
+
 
 }
 
@@ -244,11 +246,6 @@ footer>p {
 
     }
 
-    aside {
-        width: 100%;
-        text-align: none;
-    }
-
     .social li {
         font-size: 60%;
     }
@@ -273,14 +270,14 @@ footer>p {
 
 /*media queries for smaller devices 400px and below*/
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     .body {
         width: 100vw;
         height: 100vh;
         padding-left: 2px;
         padding-right: 5px;
     }
-    
+
 
     #logo {
         font-size: 150%;
@@ -302,11 +299,6 @@ footer>p {
 
     }
 
-    aside {
-        width: 100%;
-        text-align: none;
-    }
-
     .social li {
         font-size: 50%;
     }
@@ -314,7 +306,14 @@ footer>p {
     footer p {
         text-align: center;
         font-weight: none;
-        font-size: 60%;
+        font-size: 50%;
+    }
+
+    footer>p {
+        font-size: x-small;
+        text-align: center;
+        color: black;
+        padding: 5px 5px 5px 5px;
     }
 
     #video-1,
