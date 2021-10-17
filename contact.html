@@ -38,14 +38,42 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="rules.html">Trials Rules</a></li>
+                    <li><a href="rules.html">Rules</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="contact.html" class="active">Contact</a></li>
                 </ul>
             </nav>
         </div>
 
+        <section class="form-section">
+            <form action="" method="post">
 
+                <h2>Enter your details for our weekly newsletter!</h2><br>
+
+                <label for="first-name">First Name</label>
+                <input id="first-name" type="text" name="first_name" required>
+
+                <label for="last-name">Last Name</label>
+                <input id="last-name" type="text" name="last_name" required>
+
+                <label for="email">Email Address</label>
+                <input id="email" type="email" name="email_address" required>
+
+                <h2>What style of Trials Riding do you prefer?</h2>
+
+                <label for="street">Street</label>
+                <input id="street" type="radio" name="what-style" value="street" required>
+
+                <label for="competition">Competition</label>
+                <input id="competition" type="radio" name="what-style" value="competition">
+
+                <label for="both">Both</label>
+                <input id="both" type="radio" name="what-style" value="both">
+
+                <input id="button" type="submit" value="Submit">
+            </form>
+
+        </section>
 
         <footer>
             <div class="footer">
