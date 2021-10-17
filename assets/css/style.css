@@ -34,7 +34,7 @@ body {
 
 /*Title link*/
 .header {
-    display: grid;
+    display: flex;
     grid-template-rows: repeat(auto-fit);
     grid-template-columns: repeat(auto-fit);
     justify-content: center;
@@ -204,6 +204,8 @@ strong {
 /* Sign up form styling */
 
 .form-section {
+    display: flex;
+    justify-content: space-evenly;
     margin: 5px;
     padding: 10px;
     background-color: #4a4a4a;
@@ -217,7 +219,7 @@ input[type=text],
 input[type=first-name],
 input[type=last-name],
 input[type=email] {
-    width: 33%;
+    width: 100%;
     padding: 10px;
     margin: 5px 0 22px 0;
     display: block;
@@ -234,7 +236,13 @@ input[type=email] {
     border-radius: 10px;
     cursor: pointer;
     width: 50%;
-    opacity: 0.9;
+    opacity: 0.8;
+}
+
+#button:hover,
+#button:focus {
+    color: #fff;
+    opacity: 0.5;
 }
 
 
@@ -405,6 +413,13 @@ footer>p {
     .main {
         text-align: center;
 
+    }
+
+    h2,
+    h4, p {
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 20px;
     }
 
     .social li {
