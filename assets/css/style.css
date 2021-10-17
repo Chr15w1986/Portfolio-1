@@ -60,7 +60,8 @@ body {
 
 
 /*Navigation links*/
-.nav-links {
+
+nav ul {
     display: flex;
     justify-content: space-evenly;
     border: 2px #4a4a4a;
@@ -315,13 +316,8 @@ footer>p {
         padding-right: 2px;
     }
 
-    .nav-links {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
     nav>ul>li {
-        font-size: 85%;
+        font-size: 90%;
     }
 
     #video-1,
@@ -349,15 +345,8 @@ footer>p {
         font-size: 200%;
     }
 
-    .nav-links {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-
     nav>ul>li {
-        font-size: 60%;
-        padding: 10px 10px 10px 10px;
+        font-size: 70%;
     }
 
     .main {
@@ -402,11 +391,6 @@ footer>p {
         font-size: 150%;
         padding: 3px;
         margin: 3px;
-    }
-
-    .nav-links {
-        display: flex;
-        justify-content: space-evenly;
     }
 
     nav>ul>li {
