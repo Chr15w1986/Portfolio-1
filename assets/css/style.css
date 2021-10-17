@@ -41,6 +41,7 @@ body {
     align-items: center;
     border: #4a4a4a;
     border-radius: 10px;
+    background-color: rgba(74, 74, 74, 0.9);
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     padding: 0;
     position: relative;
@@ -64,6 +65,7 @@ body {
 nav ul {
     display: flex;
     justify-content: space-evenly;
+    background-color: rgba(74, 74, 74, 0.9);
     border: 2px #4a4a4a;
     padding: 10px 0 10px 0;
     border-radius: 10px;
@@ -114,6 +116,7 @@ a:focus {
     grid-template-rows: repeat(auto-fit);
     grid-template-columns: repeat(auto-fit);
     border: 2px #4a4a4a;
+    background-color: rgba(74, 74, 74, 0.9);
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -124,16 +127,34 @@ a:focus {
 }
 
 .center-images {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: "center-images-1 center-images-2 center-images-3 center-images-4";
     justify-content: space-evenly;
 
+}
+
+.center-images-1 {
+    grid-area: center-images-1;
+}
+
+.center-images-2 {
+    grid-area: center-images-2;
+}
+
+.center-images-3 {
+    grid-area: center-images-3;
+}
+
+.center-images-4 {
+    grid-area: center-images-4;
 }
 
 .center-images-1,
 .center-images-2,
 .center-images-3,
 .center-images-4 {
-    display: inline-flex;
+    /* display: inline-flex; */
     justify-content: center;
     align-items: center;
     border: 1px #4a4a4a;
@@ -217,12 +238,10 @@ strong {
 .form-section {
     display: flex;
     justify-content: space-evenly;
-    margin: 5px;
-    padding: 10px;
-    background-color: #4a4a4a;
-    opacity: 0.8;
-    border: #000;
+    border: 2px #4a4a4a;
+    background-color: rgba(74, 74, 74, 0.9);
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 
 }
 
@@ -268,6 +287,7 @@ input[type=email] {
     grid-template-columns: repeat(auto-fit);
     border: 2px #4a4a4a;
     border-radius: 10px;
+    background-color: rgba(74, 74, 74, 0.9);
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     letter-spacing: 2px;
     padding-bottom: 10px;
@@ -279,13 +299,19 @@ input[type=email] {
 footer p {
     text-align: center;
     font-weight: bold;
+    
 }
 
 
 footer>p {
     font-size: x-small;
     text-align: center;
-    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px #4a4a4a;
+    background-color: rgba(74, 74, 74, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 .social {
@@ -345,6 +371,15 @@ footer>p {
 
     nav>ul>li {
         font-size: 90%;
+    }
+
+    .center-images {
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-areas: "center-images-1 center-images-4";
+        grid-area: 2 / 2;
+        justify-content: space-evenly;
+
     }
 
     #video-1,
