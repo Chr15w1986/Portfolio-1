@@ -27,7 +27,7 @@ body {
     grid-template-rows: repeat(auto-fit);
     grid-template-columns: repeat(auto-fit);
     gap: 10px;
-    padding: 0 10px 10px 10px;
+    padding: 0 5px;
     width: auto;
     margin: 10px 0 10px 0;
 }
@@ -67,7 +67,7 @@ nav ul {
     justify-content: space-evenly;
     background-color: rgba(74, 74, 74, 0.9);
     border: 2px #4a4a4a;
-    padding: 10px 0 10px 0;
+    padding: 5px 0 5px 0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
@@ -77,8 +77,8 @@ nav>ul>li {
     list-style-type: none;
     font-size: 120%;
     letter-spacing: 3px;
-    margin: 10px 0 10px 0;
-    padding: 20px 20px 20px 20px;
+    margin: 5px 0 5px 0;
+    padding: 10px 10px 10px 10px;
 }
 
 a {
@@ -120,7 +120,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     letter-spacing: 0.25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
@@ -290,7 +290,7 @@ input[type=email] {
     background-color: rgba(74, 74, 74, 0.9);
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     letter-spacing: 2px;
-    padding-bottom: 10px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     font-size: 150%;
@@ -302,11 +302,10 @@ footer p {
     
 }
 
-
 footer>p {
     font-size: x-small;
     text-align: center;
-    margin: 5px;
+    margin: 5px 0 5px 0;
     padding: 5px;
     border: 2px #4a4a4a;
     background-color: rgba(74, 74, 74, 0.9);
