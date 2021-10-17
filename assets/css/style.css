@@ -95,10 +95,11 @@ a {
     transition: background-position 275ms ease;
 }
 
-a:hover {
+a:hover,
+a:focus {
     background-position: 0 100%;
-    filter: blur(1px);
-    -webkit-filter: blur(1px);
+    filter: blur(0.8px);
+    -webkit-filter: blur(0.8px);
 }
 
 
@@ -122,7 +123,6 @@ a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
-
 .center-images {
     display: flex;
     justify-content: space-evenly;
@@ -133,15 +133,17 @@ a:hover {
 .center-images-2,
 .center-images-3,
 .center-images-4 {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     border: 1px #4a4a4a;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     border-radius: 50%;
-    height: 10rem;
-    width: 17rem;
+    height: 8rem;
+    width: 16rem;
     overflow: hidden;
     padding: 0;
-    margin: 12px 12px 12px 12px;
+    margin: 12px;
 }
 
 h2,
@@ -161,6 +163,7 @@ p {
 
 strong {
     text-decoration: underline;
+    font-size: inherit;
 }
 
 .gallery-imgs {
@@ -184,6 +187,14 @@ strong {
     margin: auto;
 }
 
+.video-text-1 {
+    text-align: left;
+}
+
+.video-text-2 {
+    text-align: right;
+    padding-right: 20px;
+}
 
 #video-1 {
     display: inline-block;
@@ -212,7 +223,7 @@ strong {
     opacity: 0.8;
     border: #000;
     border-radius: 10px;
-    text-align: left;
+
 }
 
 input[type=text],
@@ -228,6 +239,9 @@ input[type=email] {
 }
 
 #button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #000;
     color: #d6d4d4;
     padding: 14px 20px;
@@ -235,7 +249,7 @@ input[type=email] {
     border: 1px solid #000;
     border-radius: 10px;
     cursor: pointer;
-    width: 50%;
+    width: 100%;
     opacity: 0.8;
 }
 
@@ -300,6 +314,11 @@ footer>p {
         padding-right: 2px;
     }
 
+    .video-text-2 {
+        text-align: center;
+        padding-right: 20px;
+    }
+
 
     #video-1,
     #video-2 {
@@ -330,12 +349,10 @@ footer>p {
 
     #video-1,
     #video-2 {
-        display: block;
+        display: flex;
         height: 300px;
-        left: 5%;
         position: relative;
         width: 405px;
-        overflow: hidden;
     }
 }
 
@@ -362,14 +379,9 @@ footer>p {
 
     }
 
-    .social li {
-        font-size: 60%;
-    }
-
-    footer p {
+    .video-text-1,
+    .video-text-2 {
         text-align: center;
-        font-weight: none;
-        font-size: 50%;
     }
 
     #video-1,
@@ -382,6 +394,18 @@ footer>p {
         width: 355px;
         overflow: hidden;
     }
+
+    .social li {
+        font-size: 60%;
+    }
+
+    footer p {
+        text-align: center;
+        font-weight: none;
+        font-size: 50%;
+    }
+
+
 }
 
 /*media queries for smaller devices 400px and below*/
@@ -416,7 +440,8 @@ footer>p {
     }
 
     h2,
-    h4, p {
+    h4,
+    p {
         font-size: 14px;
         letter-spacing: 2px;
         line-height: 20px;
