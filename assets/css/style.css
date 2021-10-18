@@ -62,9 +62,34 @@ body {
 
 /*Navigation links*/
 
+div nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "home rules gallery contact";
+    text-align: center;
+    max-width: 100%;
+}
+
+#home {
+    grid-area: home;
+    
+
+}
+
+#rules {
+    grid-area: rules;
+}
+
+#gallery {
+    grid-area: gallery;
+}
+
+#contact {
+    grid-area: contact;
+}
+
 nav ul {
-    display: flex;
-    justify-content: space-evenly;
     background-color: rgba(74, 74, 74, 0.9);
     border: 2px #4a4a4a;
     padding: 5px 0 5px 0;
@@ -73,13 +98,14 @@ nav ul {
 }
 
 nav>ul>li {
-    display: inline;
     list-style-type: none;
     font-size: 120%;
     letter-spacing: 3px;
     margin: 5px 0 5px 0;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
 }
+
+/* anchor link styling */
 
 a {
     position: relative;
@@ -106,7 +132,7 @@ a:focus {
 
 
 .active {
-    border-bottom: solid 1.5px #4a4a4a;
+    border-bottom: solid 2px #d6d4d4;
     border-radius: 15%;
 }
 
@@ -126,45 +152,53 @@ a:focus {
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
+/* Main page images grid and styling */
+
 .center-images {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-    grid-template-areas: "center-images-1 center-images-2 center-images-3 center-images-4";
-    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "center-images-1 center-images-2 center-images-3 center-images-4";
+    text-align: center;
 
 }
 
-.center-images-1 {
+#center-images-1 {
     grid-area: center-images-1;
 }
 
-.center-images-2 {
+#center-images-2 {
     grid-area: center-images-2;
+
 }
 
-.center-images-3 {
+#center-images-3 {
     grid-area: center-images-3;
+
 }
 
-.center-images-4 {
+#center-images-4 {
     grid-area: center-images-4;
+
 }
 
-.center-images-1,
-.center-images-2,
-.center-images-3,
-.center-images-4 {
-    /* display: inline-flex; */
-    justify-content: center;
-    align-items: center;
+#center-images-1,
+#center-images-2,
+#center-images-3,
+#center-images-4 {
     border: 1px #4a4a4a;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-    border-radius: 50%;
-    height: 8rem;
+    border-radius: 20%;
+    height: 10rem;
     width: 16rem;
     overflow: hidden;
     padding: 0;
     margin: 12px;
+}
+
+div img {
+    width: 310px;
+    height: 180px;
 }
 
 h2,
@@ -299,7 +333,7 @@ input[type=email] {
 footer p {
     text-align: center;
     font-weight: bold;
-    
+
 }
 
 footer>p {
@@ -339,6 +373,36 @@ footer>p {
         padding-right: 2px;
     }
 
+    .center-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "center-images-1 center-images-2"
+            "center-images-3 center-images-4";
+        align-content: center;
+
+    }
+
+    #center-images-1 {
+        grid-area: center-images-1;
+    }
+
+    #center-images-2 {
+        grid-area: center-images-2;
+
+    }
+
+    #center-images-3 {
+        grid-area: center-images-3;
+
+    }
+
+    #center-images-4 {
+        grid-area: center-images-4;
+
+    }
+
     .video-text-2 {
         text-align: center;
         padding-right: 20px;
@@ -375,10 +439,13 @@ footer>p {
     .center-images {
         display: grid;
         grid-template-columns: 1fr, 1fr;
-        grid-template-areas: "center-images-1 center-images-4";
-        grid-area: 2 / 2;
-        justify-content: space-evenly;
+        grid-template-rows: 1fr, 1fr;
+        grid-template-areas: "center-images-1 center-images-2 center-images-3 center-images-4";
 
+    }
+
+    .center-images-1 {
+        grid-area: center-images-1;
     }
 
     #video-1,
