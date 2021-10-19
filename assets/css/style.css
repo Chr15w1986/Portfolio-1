@@ -10,7 +10,6 @@
 body {
     font-family: 'Gemunu Libre', sans-serif;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
     color: #d6d4d4;
     background-image: url("../images/silhouette-trial-biker-performing-balancing.jpg");
     background-position: center;
@@ -25,9 +24,8 @@ body {
 /*Title link*/
 .header {
     display: grid;
-    grid-template-rows: repeat(auto-fit);
-    grid-template-columns: repeat(auto-fit);
-    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    text-align: center;
     align-items: center;
     border: #4a4a4a;
     border-radius: 10px;
@@ -42,6 +40,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.25em;
     font-size: 280%;
+    
 
 }
 
@@ -385,10 +384,6 @@ footer>p {
 
 @media screen and (max-width: 800px) {
 
-    nav>ul>li {
-        font-size: 90%;
-    }
-
     #inner-center-images {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -414,11 +409,11 @@ footer>p {
 @media screen and (max-width: 600px) {
 
     #logo {
-        font-size: 200%;
+        letter-spacing: 0.15em;
     }
 
     nav>ul>li {
-        font-size: 70%;
+        font-size: 90%;
     }
 
     .main {
@@ -455,23 +450,18 @@ footer>p {
 
 }
 
-/*media queries for smaller devices 400px and below*/
+/*media queries for smaller devices 440px and below*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
 
     #logo {
-        font-size: 150%;
-        padding: 3px;
-        margin: 3px;
+        font-size: 210%;
+        padding: 0 0 2px 0;
+        
     }
 
     nav>ul>li {
-        display: block;
-        align-items: center;
-        font-size: 60%;
-        padding: 3px;
-        margin: 3px;
-
+        font-size: 80%;
     }
 
     .main {
@@ -513,5 +503,14 @@ footer>p {
         position: relative;
         width: 320px;
         overflow: hidden;
+    }
+}
+
+/*media queries for smaller devices 340px and below*/
+
+@media screen and (max-width: 340px) {
+    
+    nav>ul>li {
+        font-size: 70%;
     }
 }
