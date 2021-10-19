@@ -37,7 +37,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.25em;
     font-size: 280%;
-    
+
 
 }
 
@@ -141,30 +141,31 @@ a:focus {
 
 #inner-center-images {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
     grid-template-areas:
         "center-images-1 center-images-2 center-images-3 center-images-4";
-    margin: auto;
-
+    gap: 10px;    
+    padding-bottom: 10px;
 }
 
 #center-images-1 {
     grid-area: center-images-1;
+    margin: auto;
 }
 
 #center-images-2 {
     grid-area: center-images-2;
-
+    margin: auto;
 }
 
 #center-images-3 {
     grid-area: center-images-3;
-
+    margin: auto;
 }
 
 #center-images-4 {
     grid-area: center-images-4;
-
+    margin: auto;
 }
 
 #center-images-1,
@@ -174,11 +175,10 @@ a:focus {
     border: 1px #4a4a4a;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     border-radius: 20%;
-    height: 10rem;
+    /* height: 10rem;
     width: 16rem;
     overflow: hidden;
-    padding: 0;
-    margin: 12px;
+    padding: 0; */
 }
 
 div img {
@@ -342,19 +342,39 @@ footer>p {
     margin: 5px 25px 5px 25px;
 }
 
-/*media queries for laptops and tablets 1300px and below*/
+/*media queries for laptops and desktops 1440px and below*/
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1440px) {
 
     #inner-center-images {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
         grid-template-areas:
             "center-images-1 center-images-2"
             "center-images-3 center-images-4";
+        align-items: center;
         margin: auto;
 
+    }
+
+    #center-images-1 {
+        grid-area: center-images-1;
+        margin: auto;
+    }
+
+    #center-images-2 {
+        grid-area: center-images-2;
+        margin: auto;
+    }
+
+    #center-images-3 {
+        grid-area: center-images-3;
+        margin: auto;
+    }
+
+    #center-images-4 {
+        grid-area: center-images-4;
+        margin: auto;
     }
 
     .video-text-2 {
@@ -371,24 +391,42 @@ footer>p {
         position: relative;
         width: 420px;
     }
-
-
-
 }
 
-/*media queries for medium sized devices 800px and below*/
+/*media queries for smaller laptops and devices 1024px and below*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
 
     #inner-center-images {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(280px, 1fr));
         grid-template-areas:
-            "center-images-1 center-images-2 center-images-3"
-            "center-images-4";
+            "center-images-1 center-images-2"
+            "center-images-3 center-images-4";
+        align-items: center;
         margin: auto;
 
+    }
+
+    #center-images-1 {
+        grid-area: center-images-1;
+        margin: auto;
+    }
+
+    #center-images-2 {
+        grid-area: center-images-2;
+        margin: auto;
+    }
+
+    #center-images-3 {
+        grid-area: center-images-3;
+        margin: auto;
+    }
+
+    #center-images-4 {
+        grid-area: center-images-4;
+        margin: auto;
     }
 
     #video-1,
@@ -400,9 +438,84 @@ footer>p {
     }
 }
 
+/* media queries for tablets 768px and below */
+
+@media screen and (max-width: 768px){
+
+    #inner-center-images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-areas:
+            "center-images-1" 
+            "center-images-2"
+            "center-images-3" 
+            "center-images-4";
+        align-items: center;
+        margin: auto;
+
+    }
+
+    #center-images-1 {
+        grid-area: center-images-1;
+        margin: auto;
+    }
+
+    #center-images-2 {
+        grid-area: center-images-2;
+        margin: auto;
+    }
+
+    #center-images-3 {
+        grid-area: center-images-3;
+        margin: auto;
+    }
+
+    #center-images-4 {
+        grid-area: center-images-4;
+        margin: auto;
+    }
+
+    
+}
+
 /*media queries for tablets, and smaller devices 600px and below*/
 
 @media screen and (max-width: 600px) {
+
+    #inner-center-images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit);
+        grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-areas:
+            "center-images-1" 
+            "center-images-2"
+            "center-images-3" 
+            "center-images-4";
+        align-items: center;
+        margin: auto;
+
+    }
+
+    #center-images-1 {
+        grid-area: center-images-1;
+        margin: auto;
+    }
+
+    #center-images-2 {
+        grid-area: center-images-2;
+        margin: auto;
+    }
+
+    #center-images-3 {
+        grid-area: center-images-3;
+        margin: auto;
+    }
+
+    #center-images-4 {
+        grid-area: center-images-4;
+        margin: auto;
+    }
 
     #logo {
         letter-spacing: 0.15em;
@@ -450,10 +563,51 @@ footer>p {
 
 @media screen and (max-width: 440px) {
 
+    #inner-center-images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit);
+        grid-template-rows: repeat(auto-fit);
+        grid-template-areas:
+            "center-images-1" 
+            "center-images-2"
+            "center-images-3" 
+            "center-images-4";
+        align-items: center;
+
+    }
+
+    #center-images-1 {
+        grid-area: center-images-1;
+        margin: auto;
+        width: 280px;
+        height: 160px;
+    }
+
+    #center-images-2 {
+        grid-area: center-images-2;
+        margin: auto;
+        width: 280px;
+        height: 160px;
+    }
+
+    #center-images-3 {
+        grid-area: center-images-3;
+        margin: auto;
+        width: 280px;
+        height: 160px;
+    }
+
+    #center-images-4 {
+        grid-area: center-images-4;
+        margin: auto;
+        width: 280px;
+        height: 160px;
+    }
+
     #logo {
         font-size: 210%;
         padding: 0 0 2px 0;
-        
+
     }
 
     nav>ul>li {
@@ -505,7 +659,7 @@ footer>p {
 /*media queries for smaller devices 340px and below*/
 
 @media screen and (max-width: 340px) {
-    
+
     nav>ul>li {
         font-size: 70%;
     }
