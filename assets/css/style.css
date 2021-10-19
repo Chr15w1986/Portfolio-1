@@ -37,18 +37,15 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.25em;
     font-size: 280%;
-
-
 }
-
 
 /*Navigation links*/
 
 div nav ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.8fr 1fr 1fr 1fr 1fr 0.8fr;
     grid-template-areas:
-        "home rules gallery contact";
+        " . home rules gallery contact . ";
     text-align: center;
     margin: auto;
 }
@@ -137,6 +134,33 @@ a:focus {
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
+.inner-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(3rem, 1fr));
+    grid-template-areas:
+        " . main-title . "
+        "left-text center-text right-text";
+}
+
+.main-title {
+    grid-area: main-title;
+    font-size: 120%;
+}
+
+.left-text {
+    grid-area: left-text;
+}
+
+.center-text {
+    grid-area: center-text;
+    padding-bottom: 20px;
+}
+
+.right-text {
+    grid-area: right-text;
+}
+
 /* Main page images grid and styling */
 
 #inner-center-images {
@@ -144,7 +168,7 @@ a:focus {
     grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
     grid-template-areas:
         "center-images-1 center-images-2 center-images-3 center-images-4";
-    gap: 10px;    
+    gap: 10px;
     padding-bottom: 10px;
 }
 
@@ -175,10 +199,6 @@ a:focus {
     border: 1px #4a4a4a;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     border-radius: 20%;
-    /* height: 10rem;
-    width: 16rem;
-    overflow: hidden;
-    padding: 0; */
 }
 
 div img {
@@ -192,7 +212,6 @@ h4 {
     text-transform: uppercase;
     text-decoration: underline;
     letter-spacing: 3px;
-    border-top: solid 1px #d6d4d4;
     padding-top: 1em;
 }
 
@@ -227,30 +246,21 @@ strong {
     margin: auto;
 }
 
-.video-text-1 {
-    text-align: left;
-}
-
-.video-text-2 {
-    text-align: right;
-    padding-right: 20px;
-}
-
-#video-1 {
-    display: inline-block;
-    height: 315px;
-    left: 10%;
+.video-1 {
     position: relative;
-    width: 420px;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
 }
 
-#video-2 {
-    display: inline-block;
-    height: 315px;
-    right: 10%;
+.video-1 iframe {
     position: absolute;
-    width: 420px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
+
 
 /* Sign up form styling */
 
@@ -381,16 +391,6 @@ footer>p {
         text-align: center;
         padding-right: 20px;
     }
-
-
-    #video-1,
-    #video-2 {
-        display: block;
-        height: 315px;
-        left: 20%;
-        position: relative;
-        width: 420px;
-    }
 }
 
 /*media queries for smaller laptops and devices 1024px and below*/
@@ -428,28 +428,20 @@ footer>p {
         grid-area: center-images-4;
         margin: auto;
     }
-
-    #video-1,
-    #video-2 {
-        display: flex;
-        height: 300px;
-        position: relative;
-        width: 405px;
-    }
 }
 
 /* media queries for tablets 768px and below */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
     #inner-center-images {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
-        grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
         grid-template-areas:
-            "center-images-1" 
+            "center-images-1"
             "center-images-2"
-            "center-images-3" 
+            "center-images-3"
             "center-images-4";
         align-items: center;
         margin: auto;
@@ -475,8 +467,6 @@ footer>p {
         grid-area: center-images-4;
         margin: auto;
     }
-
-    
 }
 
 /*media queries for tablets, and smaller devices 600px and below*/
@@ -486,11 +476,11 @@ footer>p {
     #inner-center-images {
         display: grid;
         grid-template-columns: repeat(auto-fit);
-        grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
         grid-template-areas:
-            "center-images-1" 
+            "center-images-1"
             "center-images-2"
-            "center-images-3" 
+            "center-images-3"
             "center-images-4";
         align-items: center;
         margin: auto;
@@ -530,22 +520,6 @@ footer>p {
 
     }
 
-    .video-text-1,
-    .video-text-2 {
-        text-align: center;
-    }
-
-    #video-1,
-    #video-2 {
-        display: block;
-        height: 250px;
-        left: 2%;
-        right: 2%;
-        position: relative;
-        width: 355px;
-        overflow: hidden;
-    }
-
     .social li {
         font-size: 60%;
     }
@@ -555,8 +529,6 @@ footer>p {
         font-weight: none;
         font-size: 50%;
     }
-
-
 }
 
 /*media queries for smaller devices 440px and below*/
@@ -568,9 +540,9 @@ footer>p {
         grid-template-columns: repeat(auto-fit);
         grid-template-rows: repeat(auto-fit);
         grid-template-areas:
-            "center-images-1" 
+            "center-images-1"
             "center-images-2"
-            "center-images-3" 
+            "center-images-3"
             "center-images-4";
         align-items: center;
 
@@ -643,22 +615,52 @@ footer>p {
         color: black;
         padding: 5px 5px 5px 5px;
     }
-
-    #video-1,
-    #video-2 {
-        display: block;
-        height: 215px;
-        left: 2%;
-        right: 2%;
-        position: relative;
-        width: 320px;
-        overflow: hidden;
-    }
 }
 
 /*media queries for smaller devices 340px and below*/
 
 @media screen and (max-width: 340px) {
+
+    #inner-center-images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit);
+        grid-template-rows: repeat(auto-fit);
+        grid-template-areas:
+            "center-images-1"
+            "center-images-2"
+            "center-images-3"
+            "center-images-4";
+        align-items: center;
+
+    }
+
+    #center-images-1 {
+        grid-area: center-images-1;
+        margin: auto;
+        width: 260px;
+        height: 140px;
+    }
+
+    #center-images-2 {
+        grid-area: center-images-2;
+        margin: auto;
+        width: 260px;
+        height: 140px;
+    }
+
+    #center-images-3 {
+        grid-area: center-images-3;
+        margin: auto;
+        width: 260px;
+        height: 140px;
+    }
+
+    #center-images-4 {
+        grid-area: center-images-4;
+        margin: auto;
+        width: 260px;
+        height: 140px;
+    }
 
     nav>ul>li {
         font-size: 70%;
