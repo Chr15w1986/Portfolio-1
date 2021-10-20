@@ -150,15 +150,18 @@ a:focus {
 
 .left-text {
     grid-area: left-text;
+    margin: 10px;
 }
 
 .center-text {
     grid-area: center-text;
+    margin: 10px;
     padding-bottom: 20px;
 }
 
 .right-text {
     grid-area: right-text;
+    margin: 10px;
 }
 
 /* Main page images grid and styling */
@@ -397,6 +400,14 @@ footer>p {
 
 @media screen and (max-width: 1024px) {
 
+    .inner-main {
+        all: unset;
+    }
+
+    .center-text {
+        padding: 0;
+    }
+
     #inner-center-images {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -434,6 +445,10 @@ footer>p {
 
 @media screen and (max-width: 768px) {
 
+    .inner-main {
+        all: unset;
+    }
+    
     #inner-center-images {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
