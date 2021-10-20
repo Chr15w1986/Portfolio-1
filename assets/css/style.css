@@ -209,6 +209,11 @@ div img {
     height: 180px;
 }
 
+#rules-img {
+    width: 420px;
+    height: 270px;
+}
+
 h2,
 h4 {
     text-align: center;
@@ -595,6 +600,11 @@ footer>p {
         font-size: 210%;
         padding: 0 0 2px 0;
 
+    }
+
+    #rules-img {
+        width: 280px;
+        height: 160px;
     }
 
     nav>ul>li {
