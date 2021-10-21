@@ -164,6 +164,48 @@ a:focus {
     margin: 10px;
 }
 
+/* Thank you for contacting us page */
+
+.thankyou >h1 {
+    padding: 20px;
+    margin: auto;
+    text-decoration: underline;
+    font-size: 250%;
+    color: #d6d4d4;
+}
+
+.thankyou >i {
+    font-size: 250%;
+    color: #2c2c2c;
+    margin: 0 0 20px 0;
+}
+
+.thankyou >p {
+    font-size: 200%;
+    margin: 0 0 20px 0;
+}
+
+#thanks-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #d6d4d4;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+}
+
+#thanks-button:hover,
+#thanks-button:focus {
+    color: #fff;
+    opacity: 0.5;
+}
+
 /* Main page images grid and styling */
 
 #inner-center-images {
@@ -209,7 +251,7 @@ div img {
     height: 180px;
 }
 
-#rules-img {
+.rules-img {
     width: 420px;
     height: 270px;
 }
@@ -456,13 +498,12 @@ footer>p {
     
     #inner-center-images {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
         grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
         grid-template-areas:
-            "center-images-1"
-            "center-images-2"
-            "center-images-3"
-            "center-images-4";
+            " . center-images-1"
+            "center-images-2 . "
+            " . center-images-3"
+            "center-images-4 . ";
         align-items: center;
         margin: auto;
 
@@ -489,14 +530,12 @@ footer>p {
     }
 }
 
-/*media queries for tablets, and smaller devices 600px and below*/
+/*media queries for tablets, and smaller devices 650px and below*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 
     #inner-center-images {
         display: grid;
-        grid-template-columns: repeat(auto-fit);
-        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
         grid-template-areas:
             "center-images-1"
             "center-images-2"
@@ -546,8 +585,26 @@ footer>p {
 
     footer p {
         text-align: center;
-        font-weight: none;
         font-size: 50%;
+    }
+
+    .thankyou >h1 {
+        padding: 20px;
+        margin: auto;
+        text-decoration: underline;
+        font-size: 170%;
+        color: #d6d4d4;
+    }
+    
+    .thankyou >i {
+        font-size: 200%;
+        color: #2c2c2c;
+        margin: 0 0 20px 0;
+    }
+    
+    .thankyou >p {
+        font-size: 120%;
+        margin: 0 0 20px 0;
     }
 }
 
@@ -557,8 +614,6 @@ footer>p {
 
     #inner-center-images {
         display: grid;
-        grid-template-columns: repeat(auto-fit);
-        grid-template-rows: repeat(auto-fit);
         grid-template-areas:
             "center-images-1"
             "center-images-2"
@@ -602,7 +657,7 @@ footer>p {
 
     }
 
-    #rules-img {
+    .rules-img {
         width: 280px;
         height: 160px;
     }
@@ -630,7 +685,6 @@ footer>p {
 
     footer p {
         text-align: center;
-        font-weight: none;
         font-size: 50%;
     }
 
@@ -648,8 +702,6 @@ footer>p {
 
     #inner-center-images {
         display: grid;
-        grid-template-columns: repeat(auto-fit);
-        grid-template-rows: repeat(auto-fit);
         grid-template-areas:
             "center-images-1"
             "center-images-2"
