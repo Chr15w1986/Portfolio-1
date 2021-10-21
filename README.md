@@ -22,9 +22,11 @@ navbar not centering, always hanging left until media queries kick in at 400px w
 
 navbar overflowing onto next line at 600px, centered and stacked links
 
+screen shot this code...
+<section class="form-section">
+            <form action="/thankyou.html" method="GET">
 
-
-
+needed to use GET in order for the site to work properly but i understand that this isnt the correct use of method in this way and post should be used.
 
 
 
