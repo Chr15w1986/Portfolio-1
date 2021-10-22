@@ -462,11 +462,6 @@ footer>p {
         grid-area: center-images-4;
         margin: auto;
     }
-
-    .video-text-2 {
-        text-align: center;
-        padding-right: 20px;
-    }
 }
 
 /*media queries for smaller laptops and devices 1024px and below*/
