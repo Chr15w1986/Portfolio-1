@@ -166,7 +166,7 @@ a:focus {
 
 /* Thank you for contacting us page */
 
-.thankyou >h1 {
+.thankyou>h1 {
     padding: 20px;
     margin: auto;
     text-decoration: underline;
@@ -174,13 +174,13 @@ a:focus {
     color: #d6d4d4;
 }
 
-.thankyou >i {
+.thankyou>i {
     font-size: 250%;
     color: #2c2c2c;
     margin: 0 0 20px 0;
 }
 
-.thankyou >p {
+.thankyou>p {
     font-size: 200%;
     margin: 0 0 20px 0;
 }
@@ -321,6 +321,7 @@ strong {
     background-color: rgba(74, 74, 74, 0.9);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin: 5px;
 
 }
 
@@ -328,12 +329,19 @@ input[type=text],
 input[type=first-name],
 input[type=last-name],
 input[type=email] {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 22px 0;
+    width: 95%;
+    padding: 10px 10px;
+    margin: 5px 10px 25px 7px;
     display: block;
-    border: #4a4a4a;
-    background: #d6d4d4;
+    border: 2px solid #4a4a4a;
+    border-radius: 10px;
+    background: #6d6d6d;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #d6d4d4;
+    opacity: 0.8;
 }
 
 #button {
@@ -357,6 +365,24 @@ input[type=email] {
     opacity: 0.5;
 }
 
+#street,
+#competition,
+#both {
+    display: block;
+    position: relative;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+    background-color: #d6d4d4;
+    border-radius: 50%;
+
+}
+
+.form-section label {
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
 
 
 /*Footer and social media icons*/
@@ -495,7 +521,7 @@ footer>p {
     .inner-main {
         all: unset;
     }
-    
+
     #inner-center-images {
         display: grid;
         grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
@@ -528,6 +554,7 @@ footer>p {
         grid-area: center-images-4;
         margin: auto;
     }
+
 }
 
 /*media queries for tablets, and smaller devices 650px and below*/
@@ -588,21 +615,21 @@ footer>p {
         font-size: 50%;
     }
 
-    .thankyou >h1 {
+    .thankyou>h1 {
         padding: 20px;
         margin: auto;
         text-decoration: underline;
         font-size: 170%;
         color: #d6d4d4;
     }
-    
-    .thankyou >i {
+
+    .thankyou>i {
         font-size: 200%;
         color: #2c2c2c;
         margin: 0 0 20px 0;
     }
-    
-    .thankyou >p {
+
+    .thankyou>p {
         font-size: 120%;
         margin: 0 0 20px 0;
     }
