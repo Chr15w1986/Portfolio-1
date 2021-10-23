@@ -607,7 +607,7 @@ footer>p {
 
     footer p {
         text-align: center;
-        font-size: 50%;
+        font-size: 60%;
     }
 
     .thankyou>h1 {
@@ -702,18 +702,18 @@ footer>p {
     }
 
     .social li {
-        font-size: 50%;
+        font-size: 60%;
     }
 
     footer p {
         text-align: center;
-        font-size: 50%;
+        font-size: 60%;
     }
 
     footer>p {
         font-size: x-small;
         text-align: center;
-        color: black;
+        color: #6d6d6d;
         padding: 5px 5px 5px 5px;
     }
 }
