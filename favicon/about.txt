@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Gemunu Libre
+- Font Author: Copyright 2021 The Gemunu Libre Project Authors (https://github.com/mooniak/gemunu-libre-font/)
+- Font Source: http://fonts.gstatic.com/s/gemunulibre/v1/X7n34bQ6Cfy7jKGXVE_YlqnbEQAFP-PIuTCp0xiJPvSLeMXPIWA.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
