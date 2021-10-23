@@ -317,7 +317,6 @@ strong {
 /* Sign up form styling */
 
 .container {
-    margin: 0 auto;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -338,7 +337,7 @@ input[type=text],
 input[type=email] {
     width: 95%;
     padding: 10px 10px;
-    margin: 5px 10px 25px 7px;
+    margin: 15px auto;
     display: block;
     border: 2px solid #4a4a4a;
     border-radius: 10px;
@@ -355,10 +354,10 @@ input[type=email] {
     background-color: #000;
     color: #d6d4d4;
     padding: 14px 20px;
-    margin: 5px;
+    margin: 15px auto;
     border-radius: 10px;
     cursor: pointer;
-    width: 97%;
+    width: 90%;
     opacity: 0.8;
 }
 
