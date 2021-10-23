@@ -28,8 +28,7 @@
                 <h1 id="logo">Trials World</h1>
             </a>
         </header>
-
-        <div class="nav-links">
+        <div>
             <nav>
                 <ul>
                     <li id="home"><a href="index.html">Home</a></li>
@@ -39,38 +38,39 @@
                 </ul>
             </nav>
         </div>
+        <main class="form-section">
+            <div>
+                <section>
+                    <form action="thankyou.html" method="GET">
 
-        <section class="form-section">
-            <form action="thankyou.html" method="GET">
+                        <h2>Enter your details for our weekly newsletter!</h2><br>
 
-                <h2>Enter your details for our weekly newsletter!</h2><br>
+                        <label for="first-name"></label>
+                        <input id="first-name" type="text" name="first_name" placeholder="First Name" required>
 
-                <label for="first-name"></label>
-                <input id="first-name" type="text" name="first_name" placeholder="First Name" required>
+                        <label for="last-name"></label>
+                        <input id="last-name" type="text" name="last_name" placeholder="Last Name" required>
 
-                <label for="last-name"></label>
-                <input id="last-name" type="text" name="last_name" placeholder="Last Name" required>
+                        <label for="email"></label>
+                        <input id="email" type="email" name="email_address" placeholder="Email Address" required>
 
-                <label for="email"></label>
-                <input id="email" type="email" name="email_address" placeholder="Email Address" required>
+                        <h2>What style of Trials Riding do you prefer?</h2>
 
-                <h2>What style of Trials Riding do you prefer?</h2>
+                        <label for="street">Street</label>
+                        <input id="street" type="radio" name="what-style" value="street" required>
 
-                <label for="street">Street</label>
-                <input id="street" type="radio" name="what-style" value="street" required>
+                        <label for="competition">Competition</label>
+                        <input id="competition" type="radio" name="what-style" value="competition">
 
-                <label for="competition">Competition</label>
-                <input id="competition" type="radio" name="what-style" value="competition">
+                        <label for="both">Both</label>
+                        <input id="both" type="radio" name="what-style" value="both">
 
-                <label for="both">Both</label>
-                <input id="both" type="radio" name="what-style" value="both">
+                        <input id="button" type="submit" value="GO!">
 
-                <input id="button" type="submit" value="GO!">
-
-            </form>
-
-        </section>
-
+                    </form>
+                </section>
+            </div>
+        </main>
         <footer>
             <div class="footer">
                 <ul class="social">
