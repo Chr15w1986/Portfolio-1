@@ -326,8 +326,6 @@ strong {
 }
 
 input[type=text],
-input[type=first-name],
-input[type=last-name],
 input[type=email] {
     width: 95%;
     padding: 10px 10px;
