@@ -286,7 +286,6 @@ strong {
     margin: auto;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .gallery-imgs img {
@@ -315,7 +314,6 @@ strong {
     height: 100%;
 }
 
-
 /* Sign up form styling */
 
 .container {
@@ -334,7 +332,6 @@ strong {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     margin: 5px;
-
 }
 
 input[type=text],
@@ -381,7 +378,6 @@ input[type=email] {
     width: 20px;
     background-color: #d6d4d4;
     border-radius: 50%;
-
 }
 
 .form-section label {
@@ -389,7 +385,6 @@ input[type=email] {
     text-align: center;
     margin: 10px;
 }
-
 
 /*Footer and social media icons*/
 .footer {
@@ -446,7 +441,6 @@ footer>p {
             "center-images-3 center-images-4";
         align-items: center;
         margin: auto;
-
     }
 
     #center-images-1 {
@@ -491,7 +485,6 @@ footer>p {
             "center-images-3 center-images-4";
         align-items: center;
         margin: auto;
-
     }
 
     #center-images-1 {
@@ -533,7 +526,6 @@ footer>p {
             "center-images-4 . ";
         align-items: center;
         margin: auto;
-
     }
 
     #center-images-1 {
@@ -555,7 +547,6 @@ footer>p {
         grid-area: center-images-4;
         margin: auto;
     }
-
 }
 
 /*media queries for tablets, and smaller devices 650px and below*/
@@ -571,7 +562,6 @@ footer>p {
             "center-images-4";
         align-items: center;
         margin: auto;
-
     }
 
     #center-images-1 {
@@ -600,11 +590,6 @@ footer>p {
 
     nav>ul>li {
         font-size: 90%;
-    }
-
-    .main {
-        text-align: center;
-
     }
 
     .social li {
@@ -648,7 +633,6 @@ footer>p {
             "center-images-3"
             "center-images-4";
         align-items: center;
-
     }
 
     #center-images-1 {
@@ -682,7 +666,6 @@ footer>p {
     #logo {
         font-size: 210%;
         padding: 0 0 2px 0;
-
     }
 
     .rules-img {
@@ -692,11 +675,6 @@ footer>p {
 
     nav>ul>li {
         font-size: 80%;
-    }
-
-    .main {
-        text-align: center;
-
     }
 
     h2,
@@ -736,7 +714,6 @@ footer>p {
             "center-images-3"
             "center-images-4";
         align-items: center;
-
     }
 
     #center-images-1 {
@@ -770,5 +747,4 @@ footer>p {
     nav>ul>li {
         font-size: 70%;
     }
-
 }
