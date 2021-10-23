@@ -1,17 +1,40 @@
-
-
+# PORTFOLIO PROJECT - 1
 # TRIALS WORLD
-
+[Here is a link to the final project](https://chr15w1986.github.io/Portfolio-1/)
 ## Purpose
 
 Trials World is a website designed to educate people on the sport of trials riding, history of the sport, riders profiles, techniques and the different styles
 of each part of the sport.
 
+## Initial Idea Concept
 
+My initial idea for the project was to create an informative website about the sport of mountain bike trials. My target audience is anyone who is interested in the sport or the history,
+this can be anybody of any age, gender and interest level. The site is safe for all age ranges from children to adults who want to learn about the trials riding.
 
-had to quickly tech myself CSS grid
+* The Features I wanted the project to have are:
 
+    * To make the site easy to read,
+    * Have a contrasting colour scheme (Light grey, Dark grey with off-white text)
+    * Have an easy to navigate "Nav Bar" 
+    * Look fun with images, 
+    * And be educational.
 
+## Final Design
+
+![Final project image home page](assets/images/responsive-test.png)
+
+## Contents
+
+CONTENTS HERE
+## Wireframes
+
+![WIREFRAMES can be viewed here](assets/wireframes/HOMEPAGE.png)
+
+## SOLVED BUGS AND ERRORS
+
+* I ran all of my code through https://jigsaw.w3.org/css-validator/ and https://validator.w3.org/, and I was given multiple errors of `grid-area-templates` and `misplaced end tag`. 
+* I have since corrected these errors and run the validators again and have found no errors. [CSS screenshot](testing/css-no-errors.png) and [HTML screenshot](testing/html-no-errors.png)
+There we also some warnings that still exist in CSS code. [Warnings found here](testing/css-warnings.png)
 
 
 bugs and errors: 
@@ -24,9 +47,12 @@ navbar overflowing onto next line at 600px, centered and stacked links
 
 screen shot this code...
 <section class="form-section">
-            <form action="/thankyou.html" method="GET">
+            <form action="thankyou.html" method="GET">
 
 needed to use GET in order for the site to work properly but i understand that this isnt the correct use of method in this way and post should be used.
+
+
+
 
 
 
