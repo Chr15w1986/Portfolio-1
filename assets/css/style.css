@@ -371,12 +371,18 @@ input[type=email] {
 #competition,
 #both {
     display: block;
-    position: relative;
-    margin: auto;
     height: 20px;
     width: 20px;
     background-color: #d6d4d4;
     border-radius: 50%;
+}
+
+.radio-pair {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 157px;
+    margin: 0 auto;
 }
 
 .form-section label {

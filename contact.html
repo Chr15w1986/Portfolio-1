@@ -55,16 +55,18 @@
                         <input id="email" type="email" name="email_address" placeholder="Email Address" required>
 
                         <h2>What style of Trials Riding do you prefer?</h2>
-
-                        <label for="street">Street</label>
-                        <input id="street" type="radio" name="what-style" value="street" required>
-
-                        <label for="competition">Competition</label>
-                        <input id="competition" type="radio" name="what-style" value="competition">
-
-                        <label for="both">Both</label>
-                        <input id="both" type="radio" name="what-style" value="both">
-
+                        <div class="radio-pair">
+                            <input id="street" type="radio" name="what-style" value="street" required>
+                            <label for="street">Street</label>
+                        </div>
+                        <div class="radio-pair">
+                            <input id="competition" type="radio" name="what-style" value="competition">
+                            <label for="competition">Competition</label>
+                        </div>
+                        <div class="radio-pair">
+                            <input id="both" type="radio" name="what-style" value="both">
+                            <label for="both">Both</label>
+                        </div>
                         <input id="button" type="submit" value="GO!">
 
                     </form>
