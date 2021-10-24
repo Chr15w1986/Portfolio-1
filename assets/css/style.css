@@ -717,33 +717,56 @@ footer>p {
 
     #center-images-1 {
         grid-area: center-images-1;
-        margin: auto;
-        width: 260px;
+        margin: 0 auto;
+        width: auto;
         height: 140px;
     }
 
     #center-images-2 {
         grid-area: center-images-2;
-        margin: auto;
-        width: 260px;
+        margin: 0 auto;
+        width: auto;
         height: 140px;
     }
 
     #center-images-3 {
         grid-area: center-images-3;
-        margin: auto;
-        width: 260px;
+        margin: 0 auto;
+        width: auto;
         height: 140px;
     }
 
     #center-images-4 {
         grid-area: center-images-4;
-        margin: auto;
-        width: 260px;
+        margin: 0 auto;
+        width: auto;
         height: 140px;
     }
 
     nav>ul>li {
         font-size: 70%;
+    }
+
+    .video-1 {
+        position: relative;
+        width: 280px;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+    
+    .video-1 iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 280px;
+        height: 100%;
+    }
+
+    div iframe {
+        width: 95%;
+    }
+
+    nav>ul>li {
+        font-size: 60%;
     }
 }
