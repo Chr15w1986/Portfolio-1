@@ -380,6 +380,7 @@ input[type=email] {
 
 .radio-pair {
     display: flex;
+    color: #fff;
     justify-content: flex-start;
     align-items: center;
     width: 157px;
