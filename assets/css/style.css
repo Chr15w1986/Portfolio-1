@@ -297,6 +297,7 @@ strong {
     padding: 2px 0 2px 0;
     height: auto;
     margin: auto;
+    border-radius: 10px;
 }
 
 .video-1 {
