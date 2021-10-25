@@ -24,7 +24,7 @@ this can be anybody of any age, gender and interest level. The site is safe for 
 
 ![Final project image home page](testing/responsive-test.png)
 #
-# CONTENTS
+## CONTENTS
 <!-- TOC -->
 
 - [PORTFOLIO PROJECT - 1](#portfolio-project---1)
@@ -34,17 +34,18 @@ this can be anybody of any age, gender and interest level. The site is safe for 
 - [](#)
     - [Final Design](#final-design)
 - [](#)
-- [CONTENTS](#contents)
+    - [CONTENTS](#contents)
 - [](#)
     - [UX/UI](#uxui)
 - [](#)
+    - [USER STORIES](#user-stories)
     - [WIREFRAMES](#wireframes)
 - [](#)
     - [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
 - [](#)
-    - [UNSOLVED BUGS OR ERRORS](#unsolved-bugs-or-errors)
+        - [UNSOLVED BUGS OR ERRORS](#unsolved-bugs-or-errors)
 - [](#)
-- [TESTING](#testing)
+    - [TESTING](#testing)
     - [Validators](#validators)
     - [Lighthouse](#lighthouse)
         - [Home](#home)
@@ -54,13 +55,15 @@ this can be anybody of any age, gender and interest level. The site is safe for 
         - [Thankyou](#thankyou)
     - [Accessibility](#accessibility)
 - [](#)
-- [CREDITS AND REFERENCES](#credits-and-references)
+    - [TECHNOLOGIES USED](#technologies-used)
+- [](#)
+    - [CREDITS AND REFERENCES](#credits-and-references)
 
 <!-- /TOC -->
 #
 ## UX/UI
 * This website was created to show my knowledge of HTML and CSS and to provide users with visual and educational content. 
-* The site should be simple to navigate and give visual feedback to the user.
+* The site should be simple to navigate and read.
 
 Site Goals:
 
@@ -68,6 +71,13 @@ Site Goals:
 * To provide users with an easy to understand and easy to navigate website.
 * To provide users with enough information to return to the website for projects and/or education.
 #
+## USER STORIES
+
+* As a user, I want to easily understand the main purpose of the site.
+* As a user, I want to be able to navigate the site easily.
+* As a user, I want the site to be attractive.
+* As a user, I want to be able to learn something new.
+* As a user, I want to see images and videos related to the subject.
 ## WIREFRAMES
 
 WIREFRAMES can be viewed [here](assets/wireframes/wireframes.pdf)
@@ -92,19 +102,19 @@ WIREFRAMES can be viewed [here](assets/wireframes/wireframes.pdf)
 * Any irrelevant space in between code has been removed.
 * On Apple Safari Browser and Samsung Internet the `HERE` link appeared black or darker, but stayed white on chrome. Solved the issue on Safari by targeting the link directly and setting the colour to an off shade of white `#d6d4d4` rather than `inherit` to keep consistency throughout the page. This issue still exists on Samsung internet. The cause is `light-mode` and `dark-mode` settings on samsung phones which inverts colours, and not the code itself.
 #
-## UNSOLVED BUGS OR ERRORS
+### UNSOLVED BUGS OR ERRORS
 * The navbar `contact` link overflows as the screen gets below 270px wide.
 * The `central images` on the home screen overflow on the right side of the screen below 270px wide.
 * The two `Youtube videos` overflow (stop being responsive) when the screen width is below 270px wide.
 #
-# TESTING
+## TESTING
 
 The site has been tested through multiple tests on each individual page.
 
 ## Validators
 
 * I ran all of my code through css-validator and html-validator, and I was given multiple errors of `grid-area-templates` and `misplaced end tag`. 
-* I have since corrected these errors and run the validators again and have found no errors. [CSS screenshot](testing/css-no-errors.png) and [HTML screenshot](testing/html-no-errors.png)
+* I have since corrected these errors and run the validators again and have found no errors. [CSS screenshot](testing/css-no-errors.png) and [HTML screenshot](testing/html-no-errors.png).
 There we also 5 warnings that still exist in CSS code. Although they are imported style sheets and vendor extensions which are needed for my code to work. [Warnings found here](testing/css-warnings.png)
 
 * See [HERE](https://jigsaw.w3.org/css-validator/validator?uri=chr15w1986.github.io%2FPortfolio-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) for the full report on CSS Validator.
@@ -128,8 +138,16 @@ There we also 5 warnings that still exist in CSS code. Although they are importe
 * Each page has been through wave.webaim.org for accessibility testing.
     * Found here: [Full Report](https://wave.webaim.org/report#/https://chr15w1986.github.io/Portfolio-1/index.html)
 #
-# CREDITS AND REFERENCES
+
+## TECHNOLOGIES USED
+
+* [HTML](https://en.wikipedia.org/wiki/HTML5)
+* [CSS](https://en.wikipedia.org/wiki/CSS#CSS_3)
+#
+## CREDITS AND REFERENCES
 
 * Inspiredbicycles.com for the images
 * Wikipedia.com for more indepth information on the sport of trials riding
+* UCI and BIU Association for the use of rules on the sport of trials riding.
+
 
