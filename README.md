@@ -58,6 +58,8 @@ this can be anybody of any age, gender and interest level. The site is safe for 
     - [TECHNOLOGIES USED](#technologies-used)
 - [](#)
     - [CREDITS AND REFERENCES](#credits-and-references)
+- [](#)
+        - [With thanks to:](#with-thanks-to)
 
 <!-- /TOC -->
 #
@@ -149,5 +151,11 @@ There we also 5 warnings that still exist in CSS code. Although they are importe
 * Inspiredbicycles.com for the images
 * Wikipedia.com for more indepth information on the sport of trials riding
 * UCI and BIU Association for the use of rules on the sport of trials riding.
+#
+### With thanks to:
 
+- Code institute for the tutors and mentors on the course.
+- Matt bodden, for taking time out of his own studies to give his expert help and guidance with perfecting css.
+- My family for their support and patience.
+- Everybody on Slack for tips, advice, quick fixes and kind words.
 
