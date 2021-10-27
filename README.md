@@ -65,7 +65,8 @@ Site Goals:
 ## USER STORIES
 
 * As a user, I want to easily understand the main purpose of the site
-* As a user, I want to be able to navigate the site easily
+* As a user, I want to be able to navigate the site with an easy to see and read navbar.
+* <img src="testing/navbar.png" width=400>
 * As a user, I want the site to be attractive
 * As a user, I want to be able to learn something new
 * As a user, I want to see images and videos related to the subject
@@ -90,10 +91,12 @@ Site Goals:
 * Hover effect on links and social media icons:
     * Indicates to the user the location of the mouse whilst navigating the menu
     * A Curved underline helps the user to know which page they are currently on
+    # <img src="testing/hover effect.png" width=400>
 
 * Contact Form:
     * Form validation requests the user to input the correct information in the input fields,
       This avoids the user sending illegible text/email.
+    # <img src="testing/requiredtext.png" width=400>
 ## DESIGN
 * Color Scheme:
     * With being a website that is both educational and fun, the color scheme chosen were shades of Grey. Both light, medium and dark grey were used for different elements of the site to provide a blend from background to foreground. The foreground text and images will be brighter and lighter than the background (Off white text) (See hex colours below)
