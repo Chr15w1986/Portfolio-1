@@ -7,6 +7,9 @@
 Trials World is a website designed to educate people on the sport of trials riding, the history of the sport, riders, techniques and the different styles
 of each part of the sport.
 * [Here is a link to the final project](https://chr15w1986.github.io/Portfolio-1/)
+## Final Design
+
+![Final project image home page](testing/responsive-test.png)
 
 ## Initial Idea Concept
 
@@ -21,10 +24,6 @@ This can be any person of any age, gender and interest level. The site is safe f
     * Look fun with images, and be educational
 
 #  
-## Final Design
-
-![Final project image home page](testing/responsive-test.png)
-
 #  
 ## CONTENTS
 
