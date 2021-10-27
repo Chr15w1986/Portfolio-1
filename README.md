@@ -66,7 +66,6 @@ Site Goals:
 
 * As a user, I want to easily understand the main purpose of the site
 * As a user, I want to be able to navigate the site with an easy to see and read navbar.
-* <img src="testing/navbar.png" width=400>
 * As a user, I want the site to be attractive
 * As a user, I want to be able to learn something new
 * As a user, I want to see images and videos related to the subject
@@ -80,7 +79,10 @@ Site Goals:
 * The site consists of: 
     * 4 main pages, `HOME, RULES, GALLERY, CONTACT` and an additional `THANKYOU` page
     * Each page will have the same body layout, `HEADER (TITLE)`, `NAVBAR`, `MAIN CONTENT (TEXT AND IMAGES)` and `FOOTER (SOCIAL MEDIA ICONS/LINKS, TERMS/SMALLPRINT)`
-
+* Navigation bar:
+* <img src="testing/navbar.png" width=400>
+* Footer:
+* <img src="testing/footer.png" width=400>
 * Layout and content:
     * The Home page will have some introductory text and 4 images, followed by an overview of the site and two videos
     * The Rules page will have information on the rules and styles of the sport including accompanying images
@@ -91,12 +93,12 @@ Site Goals:
 * Hover effect on links and social media icons:
     * Indicates to the user the location of the mouse whilst navigating the menu
     * A Curved underline helps the user to know which page they are currently on
-    # <img src="testing/hover effect.png" width=400>
+    * <img src="testing/hover effect.png" width=400>
 
 * Contact Form:
     * Form validation requests the user to input the correct information in the input fields,
       This avoids the user sending illegible text/email.
-    # <img src="testing/requiredtext.png" width=400>
+    * <img src="testing/requiredtext.png" width=400>
 ## DESIGN
 * Color Scheme:
     * With being a website that is both educational and fun, the color scheme chosen were shades of Grey. Both light, medium and dark grey were used for different elements of the site to provide a blend from background to foreground. The foreground text and images will be brighter and lighter than the background (Off white text) (See hex colours below)
@@ -218,6 +220,8 @@ Site Goals:
   * Used to test responsiveness of the website at different screen sizes
 * CHROME Developer tools
   * For checking compatibilty, troubleshooting and editing code
+* FONTAWESOME
+  * Used for the social media links in the footer of each page
 #
 # DEPLOYMENT
 
