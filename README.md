@@ -10,8 +10,8 @@ of each part of the sport.
 
 ## Initial Idea Concept
 
-My initial idea for the project was to create an informative website about the sport of mountain bike trials. My target audience is anyone who is interested in the sport or the history,
-this can be anybody of any age, gender and interest level. The site is safe for all age ranges from children to adults who want to learn about the trials riding. I chose to make the site quite dark to keep the information bright for contrast purposes.
+My initial idea for the project was to create an informative and educational website about the sport of mountain bike trials. My target audience is anyone who is interested in the sport itself or seeking information on the rules around the sport.
+This can be any person of any age, gender and interest level. The site is safe for all age ranges from children to adults who want to learn about the trials riding. I chose to make the site quite dark to keep the information bright for contrast purposes.
 
 * The Features I wanted the project to have are:
 
@@ -21,28 +21,63 @@ this can be anybody of any age, gender and interest level. The site is safe for 
     * Look fun with images, and be educational.
 
 #  
-#
 ## Final Design
 
 ![Final project image home page](testing/responsive-test.png)
 
 #  
-#
 ## CONTENTS
 
+
+
+- [PORTFOLIO PROJECT - 1](#portfolio-project---1)
+- [TRIALS WORLD](#trials-world)
+  - [Purpose](#purpose)
+  - [Initial Idea Concept](#initial-idea-concept)
+- [](#)
+  - [Final Design](#final-design)
+- [](#-1)
+  - [CONTENTS](#contents)
+- [](#-2)
+- [UX/UI](#uxui)
+  - [USER STORIES](#user-stories)
+  - [WIREFRAMES](#wireframes)
+  - [FEATURES](#features)
+  - [DESIGN](#design)
+- [](#-3)
+  - [TESTING](#testing)
+  - [Validators](#validators)
+  - [Lighthouse](#lighthouse)
+  - [Home](#home)
+  - [Rules](#rules)
+  - [Gallery](#gallery)
+  - [Contact](#contact)
+  - [Thankyou](#thankyou)
+  - [Accessibility](#accessibility)
+  - [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
+  - [UNSOLVED BUGS OR ERRORS](#unsolved-bugs-or-errors)
+  - [FUNCTIONALITY](#functionality)
+- [TECHNOLOGIES USED](#technologies-used)
+- [DEPLOYMENT](#deployment)
+- [PROGRAMS USED](#programs-used)
+  - [CREDITS AND REFERENCES](#credits-and-references)
+- [](#-4)
+  - [ACKNOWLEDGEMENTS:](#acknowledgements)
 
 
 #  
 #
 # UX/UI
 * This website was created to show my knowledge of HTML and CSS and to provide users with visual and educational content. 
-* The site should be simple to navigate and read.
+* The site should be simple to navigate.
+* The sit should be easy to read, images should be clear without stretching or squashing.
 
 Site Goals:
 
 * To showcase my skills in HTML and CSS.
 * To provide users with an easy to understand and easy to navigate website.
 * To provide users with enough information to return to the website for projects and/or education.
+* To make the site easily accessible.
 
 ## USER STORIES
 
@@ -56,18 +91,30 @@ Site Goals:
 
 * Wireframes for mobile and desktop can be viewed [here](assets/wireframes/wireframes.pdf)
 
-  * The site consists of: 4 main pages, `HOME, RULES, GALLERY, CONTACT` and an additional `THANKYOU` page.
-  * Each page will have the same body layout, `HEADER (TITLE)`, `NAVBAR`, `MAIN CONTENT (TEXT AND IMAGES)` and `FOOTER (SOCIAL MEDIA ICONS/LINKS, TERMS/SMALLPRINT)`.
-  * The Home page will have some introductory text and 4 images, followed by an overview of the site and two videos.
-  * The Rules page will have information on the rules and styles of the sport including accompanying images.
-  * The Gallery will have multiple images varying scenes in the sport of trials riding.
-  * The Contact page will have a form to include first name, last name, email address and a submit button.
-  * The Thankyou page with have some thankyou text and a thumbs up logo. 
+## FEATURES
 
+* The site consists of: 
+    * 4 main pages, `HOME, RULES, GALLERY, CONTACT` and an additional `THANKYOU` page.
+    * Each page will have the same body layout, `HEADER (TITLE)`, `NAVBAR`, `MAIN CONTENT (TEXT AND IMAGES)` and `FOOTER (SOCIAL MEDIA ICONS/LINKS, TERMS/SMALLPRINT)`.
+
+* Layout and content:
+    * The Home page will have some introductory text and 4 images, followed by an overview of the site and two videos.
+    * The Rules page will have information on the rules and styles of the sport including accompanying images.
+    * The Gallery will have multiple images varying scenes in the sport of trials riding.
+    * The Contact page will have a form to include first name, last name, email address and a submit button.
+    * The Thankyou page with have some thankyou text and a thumbs up logo.
+
+* Hover effect on links and social media icons:
+    * Indicates to the user the location of the mouse whilst navigating the menu.
+    * A Curved underline helps the user to know which page they are currently on.
+
+* Contact Form:
+    * Form validation requests the user to input the correct information in the input fields,
+      This avoids the user sending illegible text/email.
 ## DESIGN
 * Color Scheme:
-    * With being a website that is both educational and fun, the color scheme chosen were shades of Grey. Both light, medium and dark grey were used for different elemnts to the sight to provide a blend from backgroudn to foreground. The foreground text and images will be brighter and lighter than the background (Off white text). The difference between the darker background and lighter text brings contrast to the site and a definite seperation between the two.
-  #
+    * With being a website that is both educational and fun, the color scheme chosen were shades of Grey. Both light, medium and dark grey were used for different elements of the site to provide a blend from background to foreground. The foreground text and images will be brighter and lighter than the background (Off white text)(See hex colours below). The difference between the darker background and lighter text brings contrast to the site and a definite seperation between the two.
+  
 <img src="testing/lightgrey.png" width=200>
 <img src="testing/mediumgrey.png" width=200>
 <img src="testing/darkgrey.png" width=200>
@@ -82,10 +129,9 @@ Site Goals:
 * TYPOGRAPHY
     * The fonts used for my website is "Gemunu Libre" and "Monserrat". The font is imported from Google Fonts.
 
-#
-#  
+# 
 
-# TESTING
+## TESTING
 
 The site has been tested through multiple tests on each individual page.
 
@@ -139,22 +185,35 @@ The site has been tested through multiple tests on each individual page.
 * The `central images` on the home screen overflow on the right side of the screen below 270px wide.
 * The two `Youtube videos` overflow (stop being responsive) when the screen width is below 270px wide.
 
+## FUNCTIONALITY
+* All links have been hovered over and clicked on to ensure accessibility.
+* Pages all load correctly on all device screen sizes.
+* All Social media links work correctly and open on a new tab.
+* All images load on each page as intended.
 #
-# 
 
-## TECHNOLOGIES USED
+# TECHNOLOGIES USED
 
 * [HTML](https://en.wikipedia.org/wiki/HTML5)
 * [CSS](https://en.wikipedia.org/wiki/CSS#CSS_3)
 
 #
-#
+# DEPLOYMENT
 
-## DEPLOYMENT
+* This site was deployed using GitHub Pages with the following the steps below:
 
+1. Login or Sign Up to [GitHub](www.github.com).
+2. Created a new repository called Project-1.
+3. Next click on the `Settings` icon at the top of page in the navigation bar.
+4. Scroll down until you see `Github Pages`.
+5. There will be a message box saying "Check it out here" Click on the link to take you to the next page.
+6. Here you will be greated with a form, Choose the repository `Project-1`.
+7. Choose the branch in the drop down box, in this case `MAIN`.
+8. Choose the directory in the next drop down box, in this case `Root`.
+9. Then click `Save`.
+10. It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a Blue tick to the left of the link to the live site.
 #
-#
-## PROGRAMS USED
+# PROGRAMS USED
 
 * GIT
   * For version control, commiting and pushing to github.
@@ -167,7 +226,6 @@ The site has been tested through multiple tests on each individual page.
 * CHROME Developer tools
   * For checking compatibilty, troubleshooting and editing code.
 #
-#
 ## CREDITS AND REFERENCES
 
 * Inspiredbicycles.com for the images.
@@ -176,7 +234,7 @@ The site has been tested through multiple tests on each individual page.
 
 #  
 
-### Acknowledgments:
+## ACKNOWLEDGEMENTS:
 
 - Code institute for the tutors and mentors on the course.
 - Matt bodden, for taking time out of his own studies to give his expert help and guidance with perfecting css.
