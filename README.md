@@ -28,42 +28,20 @@ This can be any person of any age, gender and interest level. The site is safe f
 #  
 ## CONTENTS
 
-
-
-- [PORTFOLIO PROJECT - 1](#portfolio-project---1)
-- [TRIALS WORLD](#trials-world)
-  - [Purpose](#purpose)
-  - [Initial Idea Concept](#initial-idea-concept)
-- [](#)
-  - [Final Design](#final-design)
-- [](#-1)
-  - [CONTENTS](#contents)
-- [](#-2)
 - [UX/UI](#uxui)
-  - [USER STORIES](#user-stories)
-  - [WIREFRAMES](#wireframes)
-  - [FEATURES](#features)
-  - [DESIGN](#design)
-- [](#-3)
-  - [TESTING](#testing)
-  - [Validators](#validators)
-  - [Lighthouse](#lighthouse)
-  - [Home](#home)
-  - [Rules](#rules)
-  - [Gallery](#gallery)
-  - [Contact](#contact)
-  - [Thankyou](#thankyou)
-  - [Accessibility](#accessibility)
-  - [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
-  - [UNSOLVED BUGS OR ERRORS](#unsolved-bugs-or-errors)
-  - [FUNCTIONALITY](#functionality)
-- [TECHNOLOGIES USED](#technologies-used)
-- [DEPLOYMENT](#deployment)
-- [PROGRAMS USED](#programs-used)
-  - [CREDITS AND REFERENCES](#credits-and-references)
-- [](#-4)
-  - [ACKNOWLEDGEMENTS:](#acknowledgements)
-
+  * [USERSTORIES](#user-stories)
+  * [WIREFRAMES](#wireframes)
+  * [FEATURES](#features)
+  * [DESIGN](#design)
+- [TESTING](#testing)
+  * [VALIDATORS](#validators)
+  * [LIGHTHOUSE](#lighthouse)
+  * [ACCESSIBILITY](#accessibility)
+  * [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
+  * [UNSOLVED BUGS AND ERRORS](#)
+  * [FUNCTIONALITY](#)
+- [TECHNOLOGIES U](#TE)
+  * []
 
 #  
 #
@@ -131,7 +109,7 @@ Site Goals:
 
 # 
 
-## TESTING
+# TESTING
 
 The site has been tested through multiple tests on each individual page.
 
