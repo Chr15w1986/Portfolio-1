@@ -30,18 +30,22 @@ This can be any person of any age, gender and interest level. The site is safe f
 
 - [UX/UI](#uxui)
   * [USERSTORIES](#user-stories)
-  * [WIREFRAMES](#wireframes)
+- [WIREFRAMES](#wireframes)
   * [FEATURES](#features)
   * [DESIGN](#design)
 - [TESTING](#testing)
   * [VALIDATORS](#validators)
   * [LIGHTHOUSE](#lighthouse)
   * [ACCESSIBILITY](#accessibility)
-  * [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
-  * [UNSOLVED BUGS AND ERRORS](#)
-  * [FUNCTIONALITY](#)
-- [TECHNOLOGIES U](#TE)
-  * []
+- [SOLVED BUGS AND ERRORS](#solved-bugs-and-errors)
+  * [UNSOLVED BUGS AND ERRORS](#unsolved-bugs-and-errors)
+  * [FUNCTIONALITY](#functionality)
+- [TECHNOLOGIES USED](#technologies-used)
+  * [PROGRAMS USED](#programs-used)
+- [DEPLOYMENT](#deployment)
+
+- [Credits](#credits-and-references)
+- [Acknowledgements](#acknowledgements)
 
 #  
 #
@@ -174,7 +178,18 @@ The site has been tested through multiple tests on each individual page.
 
 * [HTML](https://en.wikipedia.org/wiki/HTML5)
 * [CSS](https://en.wikipedia.org/wiki/CSS#CSS_3)
+## PROGRAMS USED
 
+* GIT
+  * For version control, commiting and pushing to github.
+* GITPOD
+  * The IDE used to code this website.
+* GITHUB
+  * Used to store repositories, files and images pushed from gitpod.
+* Am I Responsive
+  * Used to test responsiveness of the website at different screen sizes.
+* CHROME Developer tools
+  * For checking compatibilty, troubleshooting and editing code.
 #
 # DEPLOYMENT
 
@@ -191,18 +206,7 @@ The site has been tested through multiple tests on each individual page.
 9. Then click `Save`.
 10. It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a Blue tick to the left of the link to the live site.
 #
-# PROGRAMS USED
 
-* GIT
-  * For version control, commiting and pushing to github.
-* GITPOD
-  * The IDE used to code this website.
-* GITHUB
-  * Used to store repositories, files and images pushed from gitpod.
-* Am I Responsive
-  * Used to test responsiveness of the website at different screen sizes.
-* CHROME Developer tools
-  * For checking compatibilty, troubleshooting and editing code.
 #
 ## CREDITS AND REFERENCES
 
