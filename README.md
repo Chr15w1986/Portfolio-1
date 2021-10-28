@@ -254,15 +254,16 @@ Site Goals:
 #
 ## CREDITS AND REFERENCES
 
-* Inspiredbicycles.com for some of the images. [link to image file](testing/image-links.txt)
+* Inspiredbicycles.com for some of the images. [Found here](testing/image-links.txt)
 * [Wikipedia](https://en.wikipedia.org/wiki/Mountain_bike_trials) for [UCI](https://www.uci.org/) and [BIU](https://biketrial.site/) Images and information.
+* Background image and Gallery images were from multiple sources. [Found here](testing/image-links2.txt)
 * [UCI](https://www.uci.org/) and [BIU](https://biketrial.site/) Association for the use of rules on the sport of trials riding.
 
 #  
 
 ## ACKNOWLEDGEMENTS:
 
-- Code institute for the tutors and mentors on the course.
+- Code institute for the Tutors and Mentors on the course.
 - Matt Bodden, for taking time out of his own studies to give his expert help and guidance with perfecting CSS.
 - My family for their support and patience.
 - Everybody on Slack for tips, advice, quick fixes and kind words.
