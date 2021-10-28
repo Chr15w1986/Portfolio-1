@@ -44,8 +44,8 @@ This can be any person of any age, gender and interest level. The site is safe f
   * [PROGRAMS USED](#programs-used)
 - [DEPLOYMENT](#deployment)
 
-- [Credits](#credits-and-references)
-- [Acknowledgements](#acknowledgements)
+- [CREDITS](#credits-and-references)
+- [ACKNOWLEDGEMENTS](#acknowledgements)
 
 #  
 #
@@ -122,6 +122,19 @@ Site Goals:
 # TESTING
 
 * The site has been tested through multiple tests on each individual page.
+
+* `As a user, I want to easily understand the main purpose of the site`:
+    * Upon loading the home page, you will be greeted with a short paragraph about the sites context, "Lets get back to basics" followed by four Trials related images
+* `As a user, I want to be able to navigate the site with an easy to see and read navbar`:
+    * This was fulfilled with clear to read wording, only four links with an underline for the page currently viewing
+* `As a user, I want the site to be attractive`:
+    * Made sure the visual effects, links, wording and images are appealing to the eye with the use of different shades of the same colour with brighter images and text
+* `As a user, I want to be able to learn something new`:
+    * I included multiple images accompanied with text related to each style of the sport and the rules around the sport
+* `As a user, I want to see images and videos related to the subject`
+    * I included a `Gallery` section (the 3rd nav link from the left) which includes multiple varied images
+    * On the `Home` page, I included four small images that spread across the page, and two youtube videos at the bottom of the page
+    * As above, there are images accompanying each paragraph in the `Rules` page
 ## DEVICES
 * I have tested responsiveness and functionality on the following devices and browsers:
     * Android:
@@ -140,7 +153,7 @@ Site Goals:
       * Lenovo Thinkpad
     * Browsers:
       * Chrome
-      * IE 11
+      * Edge
       * Firefox
       * Safari
       * Samsung internet
@@ -241,16 +254,16 @@ Site Goals:
 #
 ## CREDITS AND REFERENCES
 
-* Inspiredbicycles.com for the images.
-* Wikipedia.com for more indepth information on the sport of trials riding.
-* UCI and BIU Association for the use of rules on the sport of trials riding.
+* Inspiredbicycles.com for some of the images. [link to image file](testing/image-links.txt)
+* [Wikipedia](https://en.wikipedia.org/wiki/Mountain_bike_trials) for [UCI](https://www.uci.org/) and [BIU](https://biketrial.site/) Images and information.
+* [UCI](https://www.uci.org/) and [BIU](https://biketrial.site/) Association for the use of rules on the sport of trials riding.
 
 #  
 
 ## ACKNOWLEDGEMENTS:
 
 - Code institute for the tutors and mentors on the course.
-- Matt bodden, for taking time out of his own studies to give his expert help and guidance with perfecting css.
+- Matt Bodden, for taking time out of his own studies to give his expert help and guidance with perfecting CSS.
 - My family for their support and patience.
 - Everybody on Slack for tips, advice, quick fixes and kind words.
 
