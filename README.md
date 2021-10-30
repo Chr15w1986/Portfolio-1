@@ -49,6 +49,8 @@ This can be any person of any age, gender and interest level. The site is safe f
   * [HOW TO MAKE A LOCAL CLONE](#how-to-make-a-local-clone)
 
 - [CREDITS](#credits-and-references)
+  * [IMAGES AND INFORMATION](#images-and-information)
+  * [CODE](#code)
 - [ACKNOWLEDGEMENTS](#acknowledgements)
 
 #  
@@ -298,7 +300,7 @@ If you need to make a local clone:
 #
 ## CREDITS AND REFERENCES
 
-### IMAGES
+### IMAGES AND INFORMATION
 
 * [Inspired Bicycles](Inspiredbicycles.com) for some of the images. [Found here](testing/image-links.txt)
 * [Tribalzine](Tribalzine.com) and [Valdisolebikeland](valdisolebikeland.com) for the Rules images. [Found here](testing/image-links.txt)
