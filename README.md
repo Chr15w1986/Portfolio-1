@@ -2,16 +2,16 @@
 
 # TRIALS WORLD
 
-## Purpose
+## PURPOSE
 
 Trials World is a website designed to educate people on the sport of trials riding, the history of the sport, riders, techniques and the different styles
 of each part of the sport.
 * [Here is a link to the final project](https://chr15w1986.github.io/Portfolio-1/)
-## Final Design
+## FINAL DESIGN
 
 ![Final project image home page](testing/responsive-test.png)
 
-## Initial Idea Concept
+## INITIAL IDEA CONCEPT
 
 My initial idea for the project was to create an informative and educational website about the sport of mountain bike trials. My target audience is anyone who is interested in the sport itself or seeking information on the rules around the sport.
 This can be any person of any age, gender and interest level. The site is safe for all age ranges from children to adults who want to learn about the trials riding. I chose to make the site quite dark to keep the information bright for contrast purposes.
@@ -43,6 +43,10 @@ This can be any person of any age, gender and interest level. The site is safe f
 - [TECHNOLOGIES USED](#technologies-used)
   * [PROGRAMS USED](#programs-used)
 - [DEPLOYMENT](#deployment)
+  * [REMOTE](#remote-deployment)
+  * [HOW TO FORK A REPOSITORY](#how-to-fork-a-repository)
+  * [HOW TO CLONE A REPOSITORY](#how-to-clone-a-repository)
+  * [HOW TO MAKE A LOCAL CLONE](#how-to-make-a-local-clone)
 
 - [CREDITS](#credits-and-references)
 - [ACKNOWLEDGEMENTS](#acknowledgements)
@@ -237,34 +241,84 @@ Site Goals:
 #
 # DEPLOYMENT
 
-* This site was deployed using GitHub Pages with the following the steps below:
+## REMOTE DEPLOYMENT:
+(Assuming you have already cloned or forked,)
+* This site was deployed using GitHub Pages with the following the steps:
 
-1. Login or Sign Up to [GitHub](www.github.com).
-2. Created a new repository called Project-1.
-3. Next click on the `Settings` icon at the top of page in the navigation bar.
-4. Scroll down until you see `Github Pages`.
-5. There will be a message box saying "Check it out here" Click on the link to take you to the next page.
-6. Here you will be greated with a form, Choose the repository `Project-1`.
-7. Choose the branch in the drop down box, in this case `MAIN`.
-8. Choose the directory in the next drop down box, in this case `Root`.
-9. Then click `Save`.
-10. It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a Blue tick to the left of the link to the live site.
+1. Click on the `Settings` icon at the top of page in the navigation bar
+2. Scroll down until you see `Github Pages`
+3. There will be a message box saying "Check it out here" Click on the link to take you to the next page
+4. Here you will be greated with a form, Choose the repository `Project-1`
+5. Choose the branch in the drop down box, in this case `MAIN`
+6. Choose the directory in the next drop down box, in this case `Root`
+7. Then click `Save`
+8. It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a `Green` tick to the left of the link to the live site
+9. Another way to find the live site is to navigate to settings, on the left menu click on `pages` and this will get you to the same point.
+
+* These commands were used for version control during project:
+
+    * git add `example filename` - to add files before committing
+    * git commit -m `"example message"` - to commit changes to the local repository
+    * git push - to push all committed changes to the GitHub repository
+## HOW TO FORK A REPOSITORY:
+
+If you need to "FORK" a repository:
+
+1. If you have not already, login in to [GitHub](www.github.com) and go to https://github.com/Chr15w1986/Portfolio-1
+2. In the top right corner, click `Fork`
+3. The next page will be the forked version of https://github.com/Chr15w1986/Portfolio-1 but in your own repository
+## HOW TO CLONE A REPOSITORY:
+
+If you need to make a clone of this repository:
+
+1. Fork the repository https://github.com/Chr15w1986/Portfolio-1 using the steps above
+2. Above the file list, click `Code` (Usually green at the top right of the code window)
+3. Choose if you want to clone using HTTPS, SSH or GitHub CLI, then click the copy button to the right
+4. Open Git Bash
+5. Change the directory to where you want your clone to go (your own github)
+6. Type `git clone` and then paste the URL you copied in step 4
+7. Press `Enter` to create your clone
+
+## HOW TO MAKE A LOCAL CLONE
+
+If you need to make a local clone:
+
+1. If you have not already, login in to [GitHub](www.github.com) and go to https://github.com/Chr15w1986/Portfolio-1
+2. Under the repository name, above the list of files, click `Code`
+3. Here you will have two options, `Clone` or `Download` the repository
+4. You should close the repository using HTTPS, clicking on the icon to copy the link
+5. At this point, you can launch the `Gitpod workspace` or choose your own directory
+5. Open Git Bash
+6. Change the current working directory to the new location of where you want the cloned directory to be
+7. Type git clone and then paste the URL you copied in step 4
+8. Press Enter, to create your local clone to your chosen directory
+
 #
 
 #
 ## CREDITS AND REFERENCES
 
-* Inspiredbicycles.com for some of the images. [Found here](testing/image-links.txt)
+### IMAGES
+
+* [Inspired Bicycles](Inspiredbicycles.com) for some of the images. [Found here](testing/image-links.txt)
+* [Tribalzine](Tribalzine.com) and [Valdisolebikeland](valdisolebikeland.com) for the Rules images. [Found here](testing/image-links.txt)
 * [Wikipedia](https://en.wikipedia.org/wiki/Mountain_bike_trials) for [UCI](https://www.uci.org/) and [BIU](https://biketrial.site/) Images and information.
 * Background image and Gallery images were from multiple sources. [Found here](testing/image-links2.txt)
-* [UCI](https://www.uci.org/) and [BIU](https://biketrial.site/) Association for the use of rules on the sport of trials riding.
+* [UCI](https://www.uci.org/) and [BIU](https://biketrial.site/) Association for the use of rules on the sport of trials riding
 
+### CODE
+
+* Kevin Powell on [Youtube](https://www.youtube.com/) for CSS tutorials on GRID and FLEXBOX
+* Responsive Design course on [Youtube](https://www.youtube.com/) for responsive code in CSS
+* Everybody on slack for pointing me to [W3Schools](https://www.w3schools.com/) for more indepth guides to the uses of HTML and CSS
 #  
 
 ## ACKNOWLEDGEMENTS:
 
-- Code institute for the Tutors and Mentors on the course.
+- Code institute for the Tutors on the course.
+- My Mentor [Chris Quinn](https://github.com/10xOXR) For pushing me to be different in my code.
 - Matt Bodden, for taking time out of his own studies to give his expert help and guidance with perfecting CSS.
 - My family for their support and patience.
 - Everybody on Slack for tips, advice, quick fixes and kind words.
 
+#### RETURN TO THE [TOP](#trials-world)
