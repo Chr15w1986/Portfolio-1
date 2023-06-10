@@ -405,7 +405,6 @@ input[type=email] {
 
 footer p {
     text-align: center;
-    font-weight: bold;
 }
 
 footer>p {
@@ -433,6 +432,21 @@ footer>p {
 .social i {
     font-size: 150%;
     margin: 5px 25px 5px 25px;
+}
+
+.disclaimer {
+    border: 2px #4a4a4a;
+    border-radius: 10px;
+    background-color: rgba(25, 25, 25, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.disclaimer p {
+    text-align: center;
+    font-size: 8px;
 }
 
 /*media queries for laptops and desktops 1440px and below*/
@@ -605,6 +619,10 @@ footer>p {
     footer p {
         text-align: center;
         font-size: 60%;
+    }
+
+    .disclaimer {
+        display: none;
     }
 
     .thankyou>h1 {
