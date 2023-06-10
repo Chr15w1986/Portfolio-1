@@ -399,7 +399,7 @@ input[type=email] {
 .footer {
     border: 2px #4a4a4a;
     border-radius: 10px;
-    background-color: rgba(74, 74, 74, 0.9);
+    background-color: rgba(25, 25, 25, 0.9);
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     letter-spacing: 2px;
     padding: 10px;
@@ -417,7 +417,7 @@ footer>p {
     margin: 5px;
     padding: 5px;
     border: 2px #4a4a4a;
-    background-color: rgba(74, 74, 74, 0.9);
+    background-color: rgba(25, 25, 25, 0.9);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
