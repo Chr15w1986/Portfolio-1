@@ -280,26 +280,24 @@ strong {
     font-size: inherit;
 }
 
+/* Gallery page styles */
+
 .gallery-imgs {
     display: flex;
-    width: 100%;
-    min-height: 80vh;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery-imgs img {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    min-width: 250px;
-    max-width: 800px;
-    padding: 2px 0 2px 0;
+    width: 45%;
+    max-width: 400px;
+    padding: 2px 0;
     height: auto;
-    margin: auto;
+    margin: 10px;
     border-radius: 10px;
 }
+
+/* Video styles on home page */
 
 .video-1 {
     position: relative;
