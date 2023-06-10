@@ -259,6 +259,7 @@ div img {
 .rules-img {
     width: 420px;
     height: 270px;
+    margin: 10px;
 }
 
 h2,
@@ -271,8 +272,7 @@ h4 {
 }
 
 p {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 1em;
 }
 
 strong {
