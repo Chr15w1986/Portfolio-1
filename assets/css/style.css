@@ -106,7 +106,7 @@ a {
     font-weight: 800;
     color: #4a4a4a;
     overflow: hidden;
-    background: linear-gradient(to right, rgb(96, 96, 102), rgb(186, 186, 240) 50%, #d6d4d4 50%);
+    background: linear-gradient(to right, rgb(50, 50, 52), rgb(127, 127, 255) 50%, #d6d4d4 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -117,9 +117,7 @@ a {
 
 a:hover,
 a:focus {
-    background-position: 0 100%;
-    filter: blur(0.8px);
-    -webkit-filter: blur(0.8px);
+    background-position: 0 90%;
 }
 
 .active {
@@ -128,6 +126,7 @@ a:focus {
 }
 
 /*Main body content*/
+
 main {
     border: 2px #4a4a4a;
     background-color: rgba(74, 74, 74, 0.9);
@@ -763,7 +762,7 @@ footer>p {
         padding-bottom: 56.25%;
         height: 0;
     }
-    
+
     .video-1 iframe {
         position: absolute;
         top: 0;
